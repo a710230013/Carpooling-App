@@ -6,7 +6,7 @@ async function generateCarpoolingMap() {
 
   await new Promise((resolve) => setTimeout(resolve, 500));
 
-  await fetch("https://jsonplaceholder.typicode.com/posts/1")
+  await fetch("http://localhost:5000/generate")
     .then(async (response) => {
       if (response.ok) {
         e.innerHTML = "Success!";

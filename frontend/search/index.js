@@ -83,8 +83,9 @@ function initMap(waypoints, mapId) {
 
 async function getData(userId, testing) {
   if (!testing) {
-    data = await fetch(`http://10.17.32.71:5000/getUser/${userId}`).then((response) => response.json());
+    data = await fetch(`http://localhost:5000/getUser/${userId}`).then((response) => response.json());
     console.log(data);
+    return;
   } else {
     data = {
       id: 1,
@@ -147,5 +148,5 @@ async function getData(userId, testing) {
 
 function search() {
   let userId = document.getElementById("search").value;
-  getData(userId, true);
+  getData(userId, false);
 }
