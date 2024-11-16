@@ -1,9 +1,9 @@
 import json
 
-riders = []
-drivers = []
-drv_by_time = []
-layer_stack = []
+# riders = []
+# drivers = []
+# drv_by_time = []
+# layer_stack = []
 
 def get_time(u):
     # need to do this, otherwise "17:35" comes before "2:10"
@@ -12,15 +12,15 @@ def get_time(u):
     return time
 
 # gets list of drivers ordered by start time
-with open('backend/driver_data.json') as f:
-    drivers = sorted(json.load(f)["Data"], key=get_time)
+# with open('backend/driver_data.json') as f:
+#     drivers = sorted(json.load(f)["Data"], key=get_time)[:150]
 
 # gets list of riders ordered by start time
-with open('backend/rider_data.json') as f:
-    riders = sorted(json.load(f)["Data"], key=get_time)
+# with open('backend/rider_data.json') as f:
+#     riders = [r for r in (sorted(json.load(f)["Data"], key=get_time)[:120]) if r["start_location"] != r["destination_location"]]
 
 # disect the dataset into layers, create layers based on start times, current layer time = 10mins
-def create_layers():
+def create_layers(drivers, riders):
     layer_stack =[] #only stores ids of drivers and riders in the given layer
     for i in range(0, 2400, 15): 
         layer = [[],[]]
@@ -34,11 +34,11 @@ def create_layers():
             layer_stack.append(layer)
     return layer_stack
 
-layer_stack = create_layers()
+# layer_stack = create_layers()
 
-print(layer_stack)
-print(f"Number of layers: {len(layer_stack)}")
-for i, layer in enumerate(layer_stack):
-    print(f"Layer {i} (Driver) size: {len(layer[0])}, Layer {i} (Rider) size: {len(layer[1])}")
+# print(layer_stack)
+# print(f"Number of layers: {len(layer_stack)}")
+# for i, layer in enumerate(layer_stack):
+#     print(f"Layer {i} (Driver) size: {len(layer[0])}, Layer {i} (Rider) size: {len(layer[1])}")
 
     
