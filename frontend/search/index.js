@@ -137,7 +137,7 @@ async function getData(userId, testing) {
   }
 
   let wp = [];
-  data.riders.forEach((rider) => {
+  data[1].forEach((rider) => {
     wp.push(rider.destination_location.split(",").map(Number));
     wp.push(rider.start_location.split(",").map(Number));
   });
@@ -147,7 +147,7 @@ async function getData(userId, testing) {
   const card = document.getElementById("card");
   card.innerHTML = `
     <div class="card mt-4 bg-dark text-white">
-      <div class="card-header bg-secondary">Driver: ${data.driver.name}</div>
+      <div class="card-header bg-secondary">Driver: ${data[0].name}</div>
       <div class="card-body">
         <div class="row">
           <div class="col-md-7">
@@ -155,9 +155,9 @@ async function getData(userId, testing) {
               Thank you for helping us cut down carbon emissions! 🍃<br />Here is your carbon-friendly commute map.
             </h5>
             <br />
-            <p class="card-text">Time of Travel: ${data.driver.time_of_travel}</p>
-            <p class="card-text">Non-Smoking: ${data.driver.non_smoking}</p>
-            <p class="card-text">Same Gender: ${data.driver.same_gender}</p>
+            <p class="card-text">Time of Travel: ${data[0].time_of_travel}</p>
+            <p class="card-text">Non-Smoking: ${data[0].non_smoking}</p>
+            <p class="card-text">Same Gender: ${data[0].same_gender}</p>
             <br />
           </div>
           <div class="col-md-5">
