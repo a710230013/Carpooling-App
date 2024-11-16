@@ -50,7 +50,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "a5c1eb83-b8ce-4612-8e37-84568fc4f325",
@@ -76,7 +76,7 @@
       "max_detour_distance": "10",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "e68f9055-8c7e-451b-8e5e-d2f91c87a002",
@@ -115,7 +115,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "3f0e26c0-4ede-45a8-bd61-85d7adaf0811",
@@ -128,7 +128,7 @@
       "max_detour_distance": "23",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "45b37e13-97f2-43d6-9d3c-8b7a437ef5cc",
@@ -141,7 +141,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "32472f94-6a76-46ac-84b0-f8314c947c2b",
@@ -154,7 +154,7 @@
       "max_detour_distance": "10",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "1a6db3f7-d218-4392-be96-43e84d3d72b3",
@@ -206,7 +206,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "aba5d084-c21d-40a2-a248-8e4b32d9ecc0",
@@ -219,7 +219,7 @@
       "max_detour_distance": "17",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "a0b7b927-672f-475e-9280-0b2d481ffcae",
@@ -245,7 +245,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "38eb4939-955f-4e13-b490-f3c8739d6ee9",
@@ -258,7 +258,7 @@
       "max_detour_distance": "23",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "5db12574-815c-47f2-93cc-76fbcc7d6876",
@@ -284,7 +284,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "c7728ab2-902c-4c8d-9a84-e807b1600de8",
@@ -297,7 +297,7 @@
       "max_detour_distance": "28",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "dcdd9ff3-4738-4456-aabf-3af9fc1480ed",
@@ -362,7 +362,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "157c1f24-d542-4cd3-bd72-104973d5d8be",
@@ -388,7 +388,7 @@
       "max_detour_distance": "12",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "f7a1b6ca-d428-484c-b2d4-b52f0b37b8da",
@@ -401,7 +401,7 @@
       "max_detour_distance": "24",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "513d4563-ffa6-4396-b0da-7a3042b244a3",
@@ -414,7 +414,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "04b7d07a-7849-4027-bd7b-28e8186c990c",
@@ -440,7 +440,7 @@
       "max_detour_distance": "18",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "d5645ddb-90c0-4560-acbe-adbdd4b1b1f1",
@@ -518,7 +518,7 @@
       "max_detour_distance": "21",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "52a15a95-da11-4d55-82a3-635f50097c37",
@@ -544,7 +544,7 @@
       "max_detour_distance": "27",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "615aba66-fed3-46a1-a450-b22c1afb30dd",
@@ -557,7 +557,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "3594c2c3-cc40-44f6-9c2a-2c8712c9794e",
@@ -583,7 +583,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "14ea9eb4-1b94-4d68-a0bd-f8a8b10cf5b1",
@@ -596,7 +596,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "3301a3c3-9efc-4392-862b-86e44cb45014",
@@ -648,7 +648,7 @@
       "max_detour_distance": "25",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "37641134-f7dc-4e28-bdce-f7b128860476",
@@ -661,7 +661,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "0ccf4c2b-d870-41e8-af56-c31c0f3038b5",
@@ -687,7 +687,7 @@
       "max_detour_distance": "27",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "9c1f0e04-b392-4b14-8a63-f7b5269004ca",
@@ -700,7 +700,7 @@
       "max_detour_distance": "23",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "0e5e14da-387a-48b1-9ceb-7d7f2ba16a89",
@@ -752,7 +752,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "e9d9b1a4-dcae-494c-9251-fe2997ed1cca",
@@ -765,7 +765,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "07e5ad95-2931-4b16-b661-19413126d7d7",
@@ -830,7 +830,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "8568d5ba-225f-4d8a-b432-b0b8d400e1d8",
@@ -843,7 +843,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "48d0a26b-9ca7-48e3-acd0-52bc41399c62",
@@ -856,7 +856,7 @@
       "max_detour_distance": "22",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "20043fd8-a18b-49cc-a785-7940b13ac71f",
@@ -882,7 +882,7 @@
       "max_detour_distance": "29",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "475d838c-9773-46a8-b909-4a80188d1d4f",
@@ -895,7 +895,7 @@
       "max_detour_distance": "21",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "64c540ad-a626-4113-a959-6222b98b81c4",
@@ -921,7 +921,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "ce93ea7d-b353-41b8-b7b5-5a36f983f2e6",
@@ -960,7 +960,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "d7f0f083-cc79-4907-88cc-ed722763f449",
@@ -973,7 +973,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "05174cfc-c906-470d-a05d-bcd8f957f60f",
@@ -999,7 +999,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "8be281d3-9719-4ddb-b76b-c5549fee2e34",
@@ -1012,7 +1012,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "1d6c7791-5ed6-4b1a-ae67-b9aaa50ba025",
@@ -1077,7 +1077,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "8eb6a881-0bc0-478d-ae37-0c82f62e72d4",
@@ -1103,7 +1103,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "ce7c7278-50f9-4a05-b0c7-78066cad18f8",
@@ -1116,7 +1116,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "c35264a9-805a-4d9a-b99a-fdcc0d4f960a",
@@ -1129,7 +1129,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "907b7462-f2a1-4e90-8ac4-407748cc2c40",
@@ -1142,7 +1142,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "841de423-f366-40cc-9e1a-cf8a4e0f3baa",
@@ -1168,7 +1168,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "fd7c1301-b190-484f-b93c-13796f848e61",
@@ -1194,7 +1194,7 @@
       "max_detour_distance": "22",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "bdcd6c0f-94b3-47b1-9566-ad252520a506",
@@ -1259,7 +1259,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "3fe1d7dc-2a2c-460e-a72d-61cbe9d00ac9",
@@ -1272,7 +1272,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "fc5d549b-4f09-4c0c-96af-45fe71c1c1d0",
@@ -1285,7 +1285,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "3d99cafd-ad8d-45d3-9058-2b5b1f10abd4",
@@ -1311,7 +1311,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "dc13ea55-39f1-4067-8de9-694b77886453",
@@ -1324,7 +1324,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "d9a5d601-351a-44fd-b1c9-ec7a1af41870",
@@ -1337,7 +1337,7 @@
       "max_detour_distance": "10",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "f1d1991a-aec4-439f-ab7c-c8a856a5faf8",
@@ -1350,7 +1350,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "3c34f645-cccf-43b4-b866-1926f78e6025",
@@ -1363,7 +1363,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "549666db-bd4a-4bb8-9a31-625756404fab",
@@ -1376,7 +1376,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "c23817a5-d6ee-46ab-a248-54e4bbf735bd",
@@ -1415,7 +1415,7 @@
       "max_detour_distance": "12",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "2520f423-f6af-4c8d-b988-c7536cf8cbb2",
@@ -1441,7 +1441,7 @@
       "max_detour_distance": "18",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "5581d5b4-505b-4470-90ae-be1fa5769be1",
@@ -1467,7 +1467,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "75f975b1-0992-4057-adde-ba0c52009a8e",
@@ -1480,7 +1480,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "62b43e9d-c9ac-40d7-a2cf-7ac21cf31b6d",
@@ -1519,7 +1519,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "01094bfa-eaba-400c-a4d5-095bd32d5fb5",
@@ -1545,7 +1545,7 @@
       "max_detour_distance": "21",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "2d32f922-07ac-48b5-b6a7-c929c94c5c52",
@@ -1610,7 +1610,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "95e7fff5-8c92-497c-9ff3-67f3675176e0",
@@ -1649,7 +1649,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "2836a9a3-20a7-462b-a490-35c048025aee",
@@ -1688,7 +1688,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "64518c34-25d2-414a-884a-b61c796e9805",
@@ -1753,7 +1753,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "4945c22c-be4f-4b92-99ed-f3e3c48e2e33",
@@ -1766,7 +1766,7 @@
       "max_detour_distance": "19",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "dc7a034b-ed87-4030-8634-5e7618fd1b34",
@@ -1779,7 +1779,7 @@
       "max_detour_distance": "22",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "2ad8d7e6-f994-45aa-884b-03772b663496",
@@ -1792,7 +1792,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "ee70684b-b89f-47db-8112-1dd6961592e4",
@@ -1805,7 +1805,7 @@
       "max_detour_distance": "20",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "4ae48cde-41b1-4a31-84f0-43031436d241",
@@ -1831,7 +1831,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "ce20c3dd-ab12-47e4-b1a5-1ecb8a9993e8",
@@ -1844,7 +1844,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "a8b1f154-c429-4910-9647-2ccc7919fd3e",
@@ -1870,7 +1870,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "8e880bf5-b6dc-450a-ad8b-60278696df4a",
@@ -1896,7 +1896,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "d19ee323-32db-491e-9374-4762a851c43e",
@@ -1909,7 +1909,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "fd0882e6-36de-427e-a6e8-d35eadfbbf75",
@@ -1961,7 +1961,7 @@
       "max_detour_distance": "24",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "71a2967a-bd56-4e90-a931-572fe0baab0c",
@@ -1987,7 +1987,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "3571038c-0a1b-4e12-b256-60c2ab9ced1b",
@@ -2026,7 +2026,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "1f497539-3feb-4bdd-84fd-8a9344435c61",
@@ -2104,7 +2104,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "d8236047-7a6f-48ab-b9b7-90e4cf66e0c5",
@@ -2117,7 +2117,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "b2fbc1de-fe13-4e4c-bf92-4c24488a02f8",
@@ -2130,7 +2130,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "701500e2-3bf5-46d4-9d6c-f93bdd1c123d",
@@ -2169,7 +2169,7 @@
       "max_detour_distance": "26",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "f574b2cd-fa8a-43da-ac04-066ee1a76595",
@@ -2182,7 +2182,7 @@
       "max_detour_distance": "25",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "445c4392-ccae-4359-95c9-10cc64727636",
@@ -2195,7 +2195,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "c75ab2a9-b794-4a80-a6c1-a70abcd72fb4",
@@ -2208,7 +2208,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "7a6cd729-39dc-42a7-b0f4-cc7f7abaeff3",
@@ -2221,7 +2221,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "3fcfdb49-215d-4c94-a076-d7050cbc5d1a",
@@ -2234,7 +2234,7 @@
       "max_detour_distance": "27",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "5fb51fa5-6899-42d8-8769-f4e19f343a69",
@@ -2247,7 +2247,7 @@
       "max_detour_distance": "14",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "aa4b0fc3-ba2a-49e8-81a1-894b46660751",
@@ -2260,7 +2260,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "5054504d-cf1f-4ece-b3da-df13ec65d0fb",
@@ -2273,7 +2273,7 @@
       "max_detour_distance": "19",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "f7d8631d-3402-459d-85e4-415ba07abee8",
@@ -2286,7 +2286,7 @@
       "max_detour_distance": "16",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "4522cc1e-b9b4-47c7-a7bc-0baadfd852a0",
@@ -2299,7 +2299,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "b0645e9c-b44c-4dd4-87ff-b1aa3f93cdf5",
@@ -2312,7 +2312,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "34fc4d9f-1ff3-4e04-a32c-8336d4bae6db",
@@ -2325,7 +2325,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "d95696fc-b8e0-4a36-aca1-f5546bb9ae6b",
@@ -2338,7 +2338,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "b4701675-8957-4484-80ff-042f33838395",
@@ -2377,7 +2377,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "2a601fe4-05fd-4bcb-bfce-88c258559987",
@@ -2390,7 +2390,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "68222c89-4e1e-4a23-a6ac-5d8831324093",
@@ -2403,7 +2403,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "7814a49c-571e-4e68-a1c9-be1bdf761000",
@@ -2416,7 +2416,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "b999676a-2e5d-4c8e-a97a-166aff3644f9",
@@ -2429,7 +2429,7 @@
       "max_detour_distance": "16",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "bafca59c-1869-4797-8d40-ce79f7f58ce8",
@@ -2455,7 +2455,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "51df1372-70d0-428d-b3da-9e303e551312",
@@ -2468,7 +2468,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "25fa1efd-13c5-4699-b5cd-c80825fc0aed",
@@ -2481,7 +2481,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "e7fe9f97-6149-47b8-8275-53e7c1f5c2d9",
@@ -2494,7 +2494,7 @@
       "max_detour_distance": "21",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "f5ab2cd8-419e-4367-924d-e44afb6683cc",
@@ -2520,7 +2520,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "b0ffd163-1db6-4d37-ac5c-a98f78adf06d",
@@ -2546,7 +2546,7 @@
       "max_detour_distance": "28",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "139e94d1-e5da-4d3e-9f23-d1a421e98a81",
@@ -2559,7 +2559,7 @@
       "max_detour_distance": "25",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "47e64edb-0d46-4d9c-970e-879d68f89e57",
@@ -2572,7 +2572,7 @@
       "max_detour_distance": "19",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "725f1865-2f90-421b-8219-30ee09982318",
@@ -2598,7 +2598,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "08225b97-60ef-4dfe-b428-ddc00c75bb04",
@@ -2611,7 +2611,7 @@
       "max_detour_distance": "22",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "80a30e0e-95fd-4e19-8a8e-bdb7ea611233",
@@ -2624,7 +2624,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "705e9453-23ef-4b19-8902-14f080a1ee93",
@@ -2637,7 +2637,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "1b27a3b5-8f00-4c29-b400-48ea33d93eef",
@@ -2689,7 +2689,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "26396ccb-57d8-4e98-9ab4-7e1c8f98b700",
@@ -2702,7 +2702,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "81847c4a-aaf2-41db-95da-842e52562849",
@@ -2715,7 +2715,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "81ce52e4-3389-434c-9bff-afd99e99e278",
@@ -2728,7 +2728,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "368f1ef5-cfae-4750-b806-48ea6b94175b",
@@ -2741,7 +2741,7 @@
       "max_detour_distance": "13",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "2ad8e2d3-a85d-4759-9cdc-45723ea16f75",
@@ -2754,7 +2754,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "96582315-f61f-468d-b341-3e53a7995bae",
@@ -2767,7 +2767,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "2927968e-56ee-437b-95b5-0a55ed10e77a",
@@ -2793,7 +2793,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "7b63c4d5-fbf7-470a-ab87-9a429a2d0153",
@@ -2806,7 +2806,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "50e5c100-d983-45a3-9e04-ef1601bd09be",
@@ -2845,7 +2845,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "57368be3-be97-46e3-bb44-835e1ebe84df",
@@ -2884,7 +2884,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "7403d8f1-33bb-4f27-b975-efd1231be9e8",
@@ -2962,7 +2962,7 @@
       "max_detour_distance": "10",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "7e7046bc-ef22-4bf2-9115-84227a78d410",
@@ -2975,7 +2975,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "0ae2f0ab-d08c-4405-abe0-fe7799b3eaa1",
@@ -2988,7 +2988,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "ce394b4d-f905-4b5e-a822-8ede0abf52b7",
@@ -3001,7 +3001,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "e0d0478f-db9e-411a-a0fb-a28b31e636c0",
@@ -3014,7 +3014,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "74bb80f5-7677-46b7-b710-989d05c4e0b5",
@@ -3027,7 +3027,7 @@
       "max_detour_distance": "10",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "489d86a0-c184-4424-a79b-72f91a7c1be2",
@@ -3040,7 +3040,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "aaf569ab-d439-45c9-a826-25dd7f095786",
@@ -3053,7 +3053,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "54fb55cc-74fd-4f40-83fd-696385e0fe75",
@@ -3079,7 +3079,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "899984df-fe07-4422-b9ec-b52e9fac66fc",
@@ -3092,7 +3092,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "dc330eda-e74a-420e-82d8-089b1a9a32c9",
@@ -3105,7 +3105,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "d0e1f0b6-00fe-4a3e-9770-93ab2971322e",
@@ -3131,7 +3131,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "5883356d-1b9f-49d5-ae53-486302621d6f",
@@ -3157,7 +3157,7 @@
       "max_detour_distance": "15",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "7931a19a-a388-4d14-8874-cde093ac4ced",
@@ -3170,7 +3170,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "9ef52bfc-e7bd-4f33-881f-b058daa5027b",
@@ -3196,7 +3196,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "142260f0-2b6e-4b90-9a11-eebd0143ae3c",
@@ -3274,7 +3274,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "4c45c575-7975-4e37-9a3c-9b348c334320",
@@ -3326,7 +3326,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "0bdbd75d-6b71-47bd-b4cd-f4ab78409097",
@@ -3352,7 +3352,7 @@
       "max_detour_distance": "29",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "1cf07a88-a941-479c-88e2-2058ef96e9ea",
@@ -3404,7 +3404,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "9ae8da8c-665b-4c99-8f39-b4a1803516a4",
@@ -3417,7 +3417,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "06491b3a-e7e8-4ab6-b0f5-2c7ef3e04281",
@@ -3430,7 +3430,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "2ecd6274-43bc-4f4e-8511-2be92240fe8b",
@@ -3508,7 +3508,7 @@
       "max_detour_distance": "17",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "a581a933-08de-4a33-86fe-0520e23a1af3",
@@ -3534,7 +3534,7 @@
       "max_detour_distance": "16",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "bc882a83-7a28-4db9-9f33-ef69a72f3ac6",
@@ -3573,7 +3573,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "771cb205-8c0f-459c-9b4f-8ef3eb9acbed",
@@ -3586,7 +3586,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "29636219-227b-448e-86aa-db1c26cde6a8",
@@ -3612,7 +3612,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "7c835dd3-8d2b-48b7-8087-d9a681059e02",
@@ -3638,7 +3638,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "bc20f092-96d6-43ee-bd97-7ce780840740",
@@ -3651,7 +3651,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "3819eb5e-8a21-412d-866a-e19797a9fda7",
@@ -3664,7 +3664,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "f48282ec-78e9-474f-9745-19600a4dd1e8",
@@ -3755,7 +3755,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "aa2920dd-162d-4ae5-bc2e-5d9dd83fe9b3",
@@ -3768,7 +3768,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "3955a2fb-ef29-46ba-87d1-6e76dab16ee3",
@@ -3781,7 +3781,7 @@
       "max_detour_distance": "10",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "4ddae643-15ca-440f-a494-d2f53b8ba7fb",
@@ -3846,7 +3846,7 @@
       "max_detour_distance": "18",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "d1026ace-6215-4acd-941f-4a671aec0a03",
@@ -3859,7 +3859,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "ca32dcdf-d803-486e-a4d2-689f8eff7a02",
@@ -3885,7 +3885,7 @@
       "max_detour_distance": "17",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "5e5fbe36-00b9-485c-a4c4-8b1db462ad98",
@@ -3898,7 +3898,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "f56d5116-8e8d-47cc-81dc-0a1e3ed063c6",
@@ -3937,7 +3937,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "152936bd-b92f-4b65-80d4-bd559192f9a5",
@@ -3950,7 +3950,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "038e4ca4-4388-4786-8629-71c8098b3635",
@@ -3963,7 +3963,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "ab108a99-701b-42df-823f-46d385a7b41b",
@@ -3989,7 +3989,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "ff7135a4-10bf-42df-a8ea-ed796b5ddb99",
@@ -4002,7 +4002,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "e5b4db19-a62c-4d5b-a6a9-25f04219d40a",
@@ -4015,7 +4015,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "40beecc1-4055-4d93-9207-f5c7495e4751",
@@ -4067,7 +4067,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "64807e3c-7ec8-412e-9706-15fbb010bc05",
@@ -4145,7 +4145,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "0eb0fc1a-d9f8-404c-a7fd-a411688cac2c",
@@ -4158,7 +4158,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "9fc6b3b4-511c-4292-a702-fa5db63902b3",
@@ -4184,7 +4184,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "0e735de1-32bf-4465-94c4-e35924a33809",
@@ -4223,7 +4223,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "c738d77f-a315-4e5d-84a7-d331f5262799",
@@ -4288,7 +4288,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "e99d6ea1-3447-490b-a3ff-056029606fd1",
@@ -4301,7 +4301,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "c3438685-57f7-4845-93f2-4f1dccdaf6e8",
@@ -4340,7 +4340,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "3b65d8b6-891c-4b86-bb0f-b9932c1bcd39",
@@ -4379,7 +4379,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "764827ea-81e6-4563-9ea0-318cb5d50d77",
@@ -4431,7 +4431,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "97ab580f-053a-4b55-a42e-6c47a0b472b2",
@@ -4457,7 +4457,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "f51244d6-ca1f-4e9b-8b80-a2ecf6861fbd",
@@ -4483,7 +4483,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "4a7eaf6c-7cda-4a85-b02d-c1c6c19385cc",
@@ -4496,7 +4496,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "2e8d5643-c0dc-4512-a2d4-4769b7711aea",
@@ -4509,7 +4509,7 @@
       "max_detour_distance": "12",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "2dd33e86-1d60-4873-8e80-cb12fb7eec18",
@@ -4522,7 +4522,7 @@
       "max_detour_distance": "26",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "b5fbb144-9861-4aec-8882-40b59cc92950",
@@ -4548,7 +4548,7 @@
       "max_detour_distance": "28",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "77e29099-bd09-40cb-b0be-809bc0901d10",
@@ -4561,7 +4561,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "c3b62b55-25e3-4841-8f36-b81be06942ab",
@@ -4574,7 +4574,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "903b916c-aff4-4c4f-90ae-cb2fff7c2b28",
@@ -4626,7 +4626,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "62b1633f-7087-420a-8b7b-471fa7599b21",
@@ -4652,7 +4652,7 @@
       "max_detour_distance": "18",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "22dd3c0a-44db-4f1b-b925-a97469b62a72",
@@ -4704,7 +4704,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "b10dff3d-44f0-4acb-a74a-0b99cb2062f9",
@@ -4717,7 +4717,7 @@
       "max_detour_distance": "13",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "58a44ea2-3030-40d1-b265-fb0bcb7c0618",
@@ -4730,7 +4730,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "18fe2507-83e1-484e-b3d9-7aed2c1f0bf4",
@@ -4743,7 +4743,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "a801fd7c-5b5a-4fa5-8730-e56b61fee8de",
@@ -4782,7 +4782,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "c226c4a5-051e-4bfb-87b0-31a89ad710df",
@@ -4808,7 +4808,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "8967d57d-a99b-4cce-9caa-abb1f5b26187",
@@ -4821,7 +4821,7 @@
       "max_detour_distance": "21",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "62899dc4-9f31-4952-8937-38adb0f8fbd7",
@@ -4834,7 +4834,7 @@
       "max_detour_distance": "20",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "5ccdc8c9-2b89-4185-9079-afd8fe7683c9",
@@ -4886,7 +4886,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "e71edea8-f775-4546-a0fc-9a2dbdf67b1c",
@@ -4925,7 +4925,7 @@
       "max_detour_distance": "20",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "d7973690-6460-4e2b-80fb-fcca718bde7f",
@@ -4990,7 +4990,7 @@
       "max_detour_distance": "21",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "8717a8f8-6ffd-49fe-8449-2b048580848c",
@@ -5016,7 +5016,7 @@
       "max_detour_distance": "13",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "5b9aa7e2-561e-4e4a-9e78-a2981c09fa9a",
@@ -5055,7 +5055,7 @@
       "max_detour_distance": "25",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "27449d14-aabe-4634-913b-751ec3adefb1",
@@ -5068,7 +5068,7 @@
       "max_detour_distance": "30",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "18437a4e-ab00-4411-b3a1-6a9d8bc01ee2",
@@ -5094,7 +5094,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "0ce8e077-481f-407c-9879-4a3ea483d238",
@@ -5120,7 +5120,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "baab1f7f-1874-4c25-a5f3-7b0cf818e6f3",
@@ -5146,7 +5146,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "d4414bcd-78d5-41d6-ba98-6500a02275e6",
@@ -5172,7 +5172,7 @@
       "max_detour_distance": "13",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "98961062-7178-488e-9b18-74c19f55f520",
@@ -5198,7 +5198,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "b119c70a-c2bb-4133-ae35-d188736f947e",
@@ -5237,7 +5237,7 @@
       "max_detour_distance": "20",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "2284fda8-9586-4f64-bd72-6f96b8067c05",
@@ -5263,7 +5263,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "31d224be-dfe2-4e14-bc2d-0224523adda9",
@@ -5276,7 +5276,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "cb543a0e-50d9-4360-9f70-f9fc6886cfdb",
@@ -5289,7 +5289,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "96d27f37-ff30-454c-a9db-d63811e800c5",
@@ -5302,7 +5302,7 @@
       "max_detour_distance": "15",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "267d1021-1ea8-48d9-bd8a-cea7876b3476",
@@ -5315,7 +5315,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "924dda48-cee1-4b35-bd47-9b90761526e4",
@@ -5328,7 +5328,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "6a97ecb4-bcac-40a2-b0c2-faed95ddf6bb",
@@ -5341,7 +5341,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "4df308e6-8ee9-4d64-a0ba-7dee4b303424",
@@ -5406,7 +5406,7 @@
       "max_detour_distance": "13",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "f546498b-7203-44a4-b27c-84b454fe29a7",
@@ -5432,7 +5432,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "eec78254-5d28-4284-99e7-ce59ba0c730a",
@@ -5471,7 +5471,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "13a93d62-d758-4802-a754-3fc9b2d6fc65",
@@ -5484,7 +5484,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "92ee3e8d-1ae5-4527-9aa5-ff88759b4281",
@@ -5536,7 +5536,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "45fe0bdb-28de-48f2-990e-4da0c26a8b42",
@@ -5562,7 +5562,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "62a8f3b7-ab1f-43cf-9b90-d1e1fe5b375f",
@@ -5575,7 +5575,7 @@
       "max_detour_distance": "17",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "c9d20d21-9268-4ff7-a43b-d2a4c141e044",
@@ -5588,7 +5588,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "1dd905ef-d00b-4647-88ac-7d609a2dd877",
@@ -5614,7 +5614,7 @@
       "max_detour_distance": "13",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "b4cb65ce-dc6f-4fdd-bc0f-bb878b5c6d9c",
@@ -5627,7 +5627,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "95f3736d-2ea7-4bdf-8326-e20a964f82fc",
@@ -5679,7 +5679,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "61c7e2c7-af7c-44d6-b8e0-667b73f29043",
@@ -5705,7 +5705,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "b4c35b18-1fb3-43a4-9d2a-18417bdfd78e",
@@ -5718,7 +5718,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "20bdc765-1049-463f-900c-34832d2aaccd",
@@ -5757,7 +5757,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "e365900d-4439-419b-9256-164d8a73400b",
@@ -5770,7 +5770,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "b1e9cc82-019b-44c9-a531-a84c43fb7176",
@@ -5809,7 +5809,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "704aabc6-89ab-46d3-a853-4c38f47a3163",
@@ -5848,7 +5848,7 @@
       "max_detour_distance": "27",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "136ab88b-70ca-49ca-81f1-f2d3b1384302",
@@ -5874,7 +5874,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "9a6a91a6-fb24-4292-a65d-9644452c85b1",
@@ -5887,7 +5887,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "4cbb4031-9746-4e9c-8755-e2785cbaa161",
@@ -5939,7 +5939,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "b3a3b6f5-ccb1-4e64-9714-f72439548050",
@@ -5965,7 +5965,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "c47ef411-58eb-452f-9a23-74961d8ed33d",
@@ -5978,7 +5978,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "5326c07d-1efe-4cba-80b3-b583579a968d",
@@ -5991,7 +5991,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "1acd0fb3-6e73-411c-a664-fc2cb612e0f7",
@@ -6004,7 +6004,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "d895ec45-2b95-41df-8289-9645a43a4401",
@@ -6043,7 +6043,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "b57471e8-ec9c-48cc-8c60-cef9af0dc3bc",
@@ -6056,7 +6056,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "1b0bd303-016a-45c5-9b43-59113196f242",
@@ -6082,7 +6082,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "5e3aa63c-bb8a-4cab-8627-f8397c0c4755",
@@ -6095,7 +6095,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "9056f39b-176a-4904-8142-9d1a090c84f5",
@@ -6108,7 +6108,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "76dcbdb5-2244-4921-9246-f74862a13438",
@@ -6134,7 +6134,7 @@
       "max_detour_distance": "30",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "30d859c1-f7ed-479e-991b-727be51200b2",
@@ -6160,7 +6160,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "291091b8-aa1d-440d-b7d3-2731f32597eb",
@@ -6186,7 +6186,7 @@
       "max_detour_distance": "17",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "4cd3c834-6bef-4ace-9b1f-af5605b4a3cd",
@@ -6238,7 +6238,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "00a8da07-b734-4e43-8177-1d7ef6a87d84",
@@ -6264,7 +6264,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "f07e1833-9253-4482-8878-1f58545995cc",
@@ -6277,7 +6277,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "756a236b-fd90-44c0-873f-8d1b0c1e04f4",
@@ -6290,7 +6290,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "ec17a432-5f53-4324-85b9-db2e89b5b7bd",
@@ -6316,7 +6316,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "7e335bb3-9c4a-462e-a269-38f9edef2470",
@@ -6329,7 +6329,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "1c1e80e1-26be-4000-b1e1-2dbace172cbe",
@@ -6355,7 +6355,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "77a93617-cf15-45c5-b05c-013d83afdcba",
@@ -6394,7 +6394,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "20043aa4-0762-4916-88fd-ab5477f52de4",
@@ -6407,7 +6407,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "57e5eb9c-82cf-48c1-b6f4-85bf3dd3c81b",
@@ -6433,7 +6433,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "f725a574-794c-4e83-a2fe-8a0d61d8b7e9",
@@ -6459,7 +6459,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "b4e8f222-edea-4737-8682-6bcbe68a58b2",
@@ -6472,7 +6472,7 @@
       "max_detour_distance": "10",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "13bea9ed-f698-40d1-91a0-8943444729f0",
@@ -6524,7 +6524,7 @@
       "max_detour_distance": "27",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "054b86bd-b361-4bd6-a785-d848b2dbab3e",
@@ -6537,7 +6537,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "4aba34e1-86db-49e3-a12f-7bce905970e5",
@@ -6576,7 +6576,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "cb2884b5-e2dd-4fbc-8d4b-877a5f8d69df",
@@ -6589,7 +6589,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "1a34dda2-38e4-496a-ac88-bd868cd5ef02",
@@ -6602,7 +6602,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "bb79c3d5-0925-47c1-a91a-950be9ea0222",
@@ -6615,7 +6615,7 @@
       "max_detour_distance": "18",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "af50b049-d4eb-4a12-9c0f-c40f58306855",
@@ -6628,7 +6628,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "b339855c-3172-4d62-94ad-6a559d800630",
@@ -6654,7 +6654,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "46e63d17-c384-4892-a4d1-9d51147bc064",
@@ -6667,7 +6667,7 @@
       "max_detour_distance": "30",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "62c9c21b-908a-4564-b5fc-3880866e6410",
@@ -6680,7 +6680,7 @@
       "max_detour_distance": "19",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "20caef8f-fc5b-4cef-ba99-6a6b35f05106",
@@ -6693,7 +6693,7 @@
       "max_detour_distance": "27",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "3d62defe-c991-43b3-ac7f-2d7093888252",
@@ -6706,7 +6706,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "a0b9e9cb-0730-42ce-bed1-8b2d3a64e6dc",
@@ -6719,7 +6719,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "00674c59-4705-42b4-91d1-9b4263cf9707",
@@ -6732,7 +6732,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "43ea9b95-b623-46f5-b29b-ee22e596c046",
@@ -6758,7 +6758,7 @@
       "max_detour_distance": "14",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "21d983e6-3ec4-48d9-bceb-0bcee030dd52",
@@ -6771,7 +6771,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "b2028d3d-57fc-4bf9-9940-d11e011a39b8",
@@ -6810,7 +6810,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "a15dd554-e1e8-4822-b030-6a54bd3808fd",
@@ -6836,7 +6836,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "63da6d40-9552-415a-adc0-8bc13556490a",
@@ -6862,7 +6862,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "04fa79e9-18f4-4885-b006-0979357d6236",
@@ -6875,7 +6875,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "e3d4940f-3bfa-4c57-8b44-253d665afb19",
@@ -6901,7 +6901,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "44d0a12a-1665-423d-8a0e-b4c61ab2d321",
@@ -6927,7 +6927,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "47521875-d30d-4486-830f-cff823ff330c",
@@ -6992,7 +6992,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "cacf452f-08fa-4352-b2fa-6d7cc1031924",
@@ -7005,7 +7005,7 @@
       "max_detour_distance": "14",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "83f0c27e-4467-4c61-a0b8-521db707e0ea",
@@ -7044,7 +7044,7 @@
       "max_detour_distance": "28",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "baa80b48-430e-4a1b-bc79-8c1f327d68cb",
@@ -7057,7 +7057,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "1e7c3d9c-9574-47a6-aaf4-ee881f6d5c02",
@@ -7070,7 +7070,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "0baedadd-bf37-4777-89a6-8b99ec2b54e8",
@@ -7096,7 +7096,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "e289610a-1bed-444e-82aa-28903665063e",
@@ -7109,7 +7109,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "eba1da42-60a6-424a-a479-55249cb03d01",
@@ -7135,7 +7135,7 @@
       "max_detour_distance": "22",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "c42e33fe-08b0-451d-aac5-2ab02a9b902a",
@@ -7174,7 +7174,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "e6812bd7-aaaf-47a0-a5cc-0630bfa85b32",
@@ -7187,7 +7187,7 @@
       "max_detour_distance": "19",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "08c6d20d-a720-4d60-89a4-de61c3c92862",
@@ -7213,7 +7213,7 @@
       "max_detour_distance": "28",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "420ccd77-6062-46a8-9d13-32ae8a4b787f",
@@ -7278,7 +7278,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "e0d0a48d-0927-4a8c-826e-d17173ab1cc7",
@@ -7291,7 +7291,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "be4179b7-005e-4c1f-a560-957cf30c9870",
@@ -7304,7 +7304,7 @@
       "max_detour_distance": "11",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "6ba2abf3-5846-42d8-b251-a1a60c07f7f5",
@@ -7317,7 +7317,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "84233643-ed72-465d-a201-f7676d8f8816",
@@ -7330,7 +7330,7 @@
       "max_detour_distance": "13",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "8c8d6d4a-866b-4c72-9c14-fc1338b0c284",
@@ -7356,7 +7356,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "611dd6de-4a44-411f-a1b5-d72127dde735",
@@ -7395,7 +7395,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "51746df2-1244-4cb5-8ff1-fb55d16730db",
@@ -7408,7 +7408,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "6863e646-0e63-4938-b345-15aa4d0641e2",
@@ -7421,7 +7421,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "67d068a6-5894-4086-b794-e8e22c405cab",
@@ -7447,7 +7447,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "6695f174-d882-400e-82a5-dd218f455f91",
@@ -7460,7 +7460,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "49ed07f8-c3a9-47e7-bc1d-0875eb509310",
@@ -7473,7 +7473,7 @@
       "max_detour_distance": "23",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "3e2ced00-3faf-45e6-ae08-8222ec7cb72d",
@@ -7499,7 +7499,7 @@
       "max_detour_distance": "29",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "ab03c686-9af8-4b88-9b39-41ef364c411e",
@@ -7512,7 +7512,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "38ef3e33-4a79-4969-9920-03e38b0a4fc1",
@@ -7525,7 +7525,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "8033a282-0cf9-4d3a-a7e1-9731bfccdb40",
@@ -7538,7 +7538,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "783390c7-67c2-400c-a620-e0746cdb46e6",
@@ -7577,7 +7577,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "8a01b82d-6b7a-42a9-8942-764cdf269241",
@@ -7603,7 +7603,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "a5665a8c-5037-4f1a-96b4-83ff028b1a30",
@@ -7655,7 +7655,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "4c9b3c03-51b6-47bb-9203-1386fe1601f3",
@@ -7668,7 +7668,7 @@
       "max_detour_distance": "11",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "7e282c3d-bd89-425e-af85-1dc5083c325a",
@@ -7694,7 +7694,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "a3f81a28-7cf8-452e-b36c-56f62dd392d7",
@@ -7707,7 +7707,7 @@
       "max_detour_distance": "11",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "3cfb70cf-2ee0-4371-b90e-3fa88de917d8",
@@ -7733,7 +7733,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "e67c31ef-91e8-4be4-b6cd-f47179cb7588",
@@ -7759,7 +7759,7 @@
       "max_detour_distance": "17",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "d85f0ba6-debb-45b5-8981-33f10647f8a5",
@@ -7785,7 +7785,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "c57b7a15-e604-4a96-a0e3-d21bafa8155d",
@@ -7798,7 +7798,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "e09a549e-b20c-4159-ac4d-ccdfee968f82",
@@ -7837,7 +7837,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "ec43ce0d-d94f-415d-b5d3-5b81f8def038",
@@ -7850,7 +7850,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "1cf31701-6dab-4fb2-b3ff-e4f37ae4ecce",
@@ -7863,7 +7863,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "ea4354b8-9be6-4f95-a842-43ed9de4b730",
@@ -7876,7 +7876,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "207d2c44-d61c-46d0-a4ae-8df93e44bdc4",
@@ -7941,7 +7941,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "007ef6b1-60de-4de3-b904-2dd5bd9a5c89",
@@ -7967,7 +7967,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "b00fff92-a958-4036-9972-6eb51ff47bb3",
@@ -8006,7 +8006,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "5d97c342-32bf-4971-8f3f-5e6c899f2184",
@@ -8019,7 +8019,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "c956517e-14ac-4dc5-bdf3-22950a04267b",
@@ -8045,7 +8045,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "1fa74d20-1c9c-425b-af7c-173802193f75",
@@ -8058,7 +8058,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "e025b9a0-c4c4-495b-80ca-bcfd80d75860",
@@ -8110,7 +8110,7 @@
       "max_detour_distance": "17",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "aec51495-7bed-453c-8bb1-fb73953af1ac",
@@ -8123,7 +8123,7 @@
       "max_detour_distance": "26",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "269795e2-9fb4-43c9-b39d-f1d30d94b909",
@@ -8149,7 +8149,7 @@
       "max_detour_distance": "27",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "35e44f14-e238-4a6c-ab49-0d249ea0199c",
@@ -8175,7 +8175,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "72fb524e-1b4e-4853-9a8a-679fccbd738d",
@@ -8201,7 +8201,7 @@
       "max_detour_distance": "29",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "1c4b1609-2145-47c0-b72c-716044c9565f",
@@ -8214,7 +8214,7 @@
       "max_detour_distance": "15",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "22dc71de-d651-40ee-a207-68b3918089ee",
@@ -8266,7 +8266,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "29392f3e-e625-4fd0-84c6-0eb7274d0d7b",
@@ -8279,7 +8279,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "4d7bf85b-9180-439a-8c64-0eae5ada0d83",
@@ -8305,7 +8305,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "587eef71-6303-4ecd-80f6-c7a977402070",
@@ -8331,7 +8331,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "51a14649-9697-4920-8d65-4bdcdd8b3a02",
@@ -8344,7 +8344,7 @@
       "max_detour_distance": "27",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "5ead7a6c-ee47-435a-a69c-dc43598d38a4",
@@ -8383,7 +8383,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "2d7ca7dc-7524-4aef-a2a8-0a19c030b883",
@@ -8396,7 +8396,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "3a4364a7-b3ff-4f5a-9b69-f3dca518fd8c",
@@ -8409,7 +8409,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "69892059-29cd-4220-953a-71032b1deec8",
@@ -8448,7 +8448,7 @@
       "max_detour_distance": "29",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "ad1dc89e-4d4b-40b5-a0a7-5b26181dbea0",
@@ -8461,7 +8461,7 @@
       "max_detour_distance": "26",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "045f8d60-8133-41fb-82c2-fc88eafdd95f",
@@ -8474,7 +8474,7 @@
       "max_detour_distance": "21",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "ded9e15d-8f57-435d-90a7-f2399e7a0c8e",
@@ -8487,7 +8487,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "b97551ab-bda2-4607-b5d9-bbc0129a0bef",
@@ -8539,7 +8539,7 @@
       "max_detour_distance": "28",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "40a0b72f-a4bb-4345-99f4-92c386ba887a",
@@ -8552,7 +8552,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "5bd8d93b-cb3c-411b-a9bd-bbaf5c811c35",
@@ -8565,7 +8565,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "063be5ac-6097-4d91-806f-f7fe70876225",
@@ -8578,7 +8578,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "cf0e4cc5-9d77-426e-944d-26e11748b32b",
@@ -8591,7 +8591,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "9680ddfa-9ebe-44a5-a632-ae05b6c06dd6",
@@ -8617,7 +8617,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "8b69c301-a6f4-472a-95d6-3f8f413a59d2",
@@ -8630,7 +8630,7 @@
       "max_detour_distance": "10",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "e99ba180-485f-4e76-bc7e-589b52f0af25",
@@ -8643,7 +8643,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "70ea3a59-a473-420b-b6d5-61d3acc02bc7",
@@ -8656,7 +8656,7 @@
       "max_detour_distance": "16",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "78864bf2-b292-4370-a2eb-66b16bb58afe",
@@ -8669,7 +8669,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "bca4c613-fb0d-4e8a-8b1d-24610fbab4b7",
@@ -8682,7 +8682,7 @@
       "max_detour_distance": "19",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "4ccc4927-598d-4a95-82cc-e58b107f6a9f",
@@ -8695,7 +8695,7 @@
       "max_detour_distance": "19",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "8379f25a-d7f7-4da4-a536-9fdc3ba00231",
@@ -8708,7 +8708,7 @@
       "max_detour_distance": "17",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "5b93e94e-bba8-4903-947d-b27d001ccdf7",
@@ -8721,7 +8721,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "f66e3ec5-3ecb-4941-b60d-006440b3dacc",
@@ -8734,7 +8734,7 @@
       "max_detour_distance": "17",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "d9ccea2c-a11e-4aa5-9799-8f82ebab93d3",
@@ -8786,7 +8786,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "dac4d74a-e3cb-46a4-8533-fcb70b1fdcea",
@@ -8812,7 +8812,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "a401f63f-c1a2-494e-83f2-b195974273ec",
@@ -8864,7 +8864,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "794558cc-66bd-4399-a32c-239615e0055c",
@@ -8877,7 +8877,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "41085e2b-06ff-4655-9682-d56b8e301b80",
@@ -8903,7 +8903,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "8b5f2fc9-c117-4cf7-bf11-8aca1cffada8",
@@ -8916,7 +8916,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "b43f1954-a864-4aef-9910-ae0ab03ff6d0",
@@ -8942,7 +8942,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "333110e3-1335-4ec0-bdb4-0e17dcad4d5d",
@@ -8968,7 +8968,7 @@
       "max_detour_distance": "11",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "4ecd8856-26a1-4677-9e2d-5a138ccdd316",
@@ -8994,7 +8994,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "a1db25b7-e42e-47bd-8103-491b6482e191",
@@ -9020,7 +9020,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "fa8de809-c95b-4cf6-9c92-94553e4d4172",
@@ -9033,7 +9033,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "ecccf8ab-8ef5-42cd-a903-08b6d024d926",
@@ -9059,7 +9059,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "fe413dc7-e45a-49ec-a7d2-2d140cdb14ad",
@@ -9085,7 +9085,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "bb458a48-16bd-4582-981a-f9df63a9fd5e",
@@ -9098,7 +9098,7 @@
       "max_detour_distance": "29",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "741a9a9e-dd7c-48b7-a8c7-8e236a0c6f8c",
@@ -9111,7 +9111,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "6779d284-6b3c-4661-8767-ec7346b14432",
@@ -9124,7 +9124,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "2d0c2eeb-4576-4feb-9d9c-7eda501926b2",
@@ -9137,7 +9137,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "008634ab-4cf0-4620-a0fb-a76c8d1858f2",
@@ -9150,7 +9150,7 @@
       "max_detour_distance": "28",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "672cc59f-0934-4c62-a41b-2f9c490323d4",
@@ -9176,7 +9176,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "9dcdf629-1198-45de-ade5-c631005d4c86",
@@ -9228,7 +9228,7 @@
       "max_detour_distance": "19",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "1ae82cfc-b8f3-4452-b844-d8e478080e01",
@@ -9254,7 +9254,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "0b784a10-faea-4241-b446-9a81e216ac81",
@@ -9267,7 +9267,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "4376d469-79a4-4bc7-8cd1-76848d12dabd",
@@ -9280,7 +9280,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "85897d2b-1227-4f32-aebd-74b73f0857ca",
@@ -9293,7 +9293,7 @@
       "max_detour_distance": "16",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "59624efb-8cbf-49af-86fe-33e0fb6ad5c0",
@@ -9306,7 +9306,7 @@
       "max_detour_distance": "16",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "77574577-faf8-44c9-ad66-eeb8230df122",
@@ -9332,7 +9332,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "4c452d51-4978-46e9-a7b0-cd54979f37e5",
@@ -9371,7 +9371,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "011bf9b8-3cf2-4561-9e41-b82fd91a016f",
@@ -9384,7 +9384,7 @@
       "max_detour_distance": "12",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "675c6eb6-5947-4c74-b93d-a209f41f7ce7",
@@ -9423,7 +9423,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "90be514b-2235-49a4-8885-8ad1128ec5bf",
@@ -9436,7 +9436,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "cc0eee0d-06db-474a-8af7-bf72c118560e",
@@ -9449,7 +9449,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "e626112c-30c2-42ec-bfb8-c789b96dac33",
@@ -9475,7 +9475,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "0d4e0f04-35c8-4c1d-a2a0-8dd3994659b8",
@@ -9527,7 +9527,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "fbdb08e1-192c-42c1-9740-ae29ff5a3398",
@@ -9540,7 +9540,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "0f8770e5-c5fb-4dcc-9402-00c48b99d5c4",
@@ -9553,7 +9553,7 @@
       "max_detour_distance": "27",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "2930eeb4-3d03-45f9-b630-a9f6f3c08fa0",
@@ -9592,7 +9592,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "cf35d0d3-5eb2-4ba3-8f13-7cd419fc2e6f",
@@ -9605,7 +9605,7 @@
       "max_detour_distance": "21",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "fd7fa119-26e3-4b31-8089-a21a81eafbb0",
@@ -9618,7 +9618,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "2868740a-a8b5-4979-a73a-61bcbc62abed",
@@ -9631,7 +9631,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "bf339050-d0e8-4d5e-ab49-982797a35188",
@@ -9696,7 +9696,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "eb6e903d-6f1c-4126-9db1-1404dc4b7279",
@@ -9709,7 +9709,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "e0d18d32-752c-413c-b8a4-698699f6ad51",
@@ -9722,7 +9722,7 @@
       "max_detour_distance": "30",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "e2abaede-6bd2-4dc0-870b-715927b8948b",
@@ -9787,7 +9787,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "dbab516b-d3c9-4a3b-a265-1af5f3660ac9",
@@ -9813,7 +9813,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "6cb98941-e452-4729-9804-e2db5bd1d27a",
@@ -9826,7 +9826,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "c7d15e79-a16e-4191-ae8c-09e4a9b1ecca",
@@ -9839,7 +9839,7 @@
       "max_detour_distance": "11",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "de8a45b1-4181-4b58-87ae-58779f6c356d",
@@ -9878,7 +9878,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "9e9ee2af-ac64-4726-9fbc-6eec76ad4ae3",
@@ -9891,7 +9891,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "56862bd6-470f-468b-b5d6-28915b390b35",
@@ -9917,7 +9917,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "986803eb-25a3-4f30-bb03-8523008e2d2f",
@@ -9943,7 +9943,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "8a4854f7-7b71-44cd-b7d8-a4eb91fa332c",
@@ -9969,7 +9969,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "8e226714-4c80-4f5d-8ddd-31548e3a1e09",
@@ -9982,7 +9982,7 @@
       "max_detour_distance": "22",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "89fdb7a6-0652-40ae-bfeb-5128bf60c1c6",
@@ -9995,7 +9995,7 @@
       "max_detour_distance": "10",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "7167465a-1c56-4640-873c-b394d441291d",
@@ -10021,7 +10021,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "4c4f7c8f-3b72-49f7-813b-a02fb930779d",
@@ -10034,7 +10034,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "06b97632-8392-40cd-bed1-8181fe365c51",
@@ -10060,7 +10060,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "674b7c36-0693-462a-b369-08f1bb9bab52",
@@ -10073,7 +10073,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "e93865da-130b-46f8-94d9-91700bbd5a99",
@@ -10099,7 +10099,7 @@
       "max_detour_distance": "27",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "658ab8d0-099a-4109-a282-7df7da8dc93e",
@@ -10112,7 +10112,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "daa9324f-fc7b-48aa-a9fa-d07eb3054157",
@@ -10125,7 +10125,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "5710ddf7-396e-4405-af14-1e093d83b6f2",
@@ -10151,7 +10151,7 @@
       "max_detour_distance": "21",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "9d36c917-4d3b-44b5-9c0c-17fcdee33545",
@@ -10203,7 +10203,7 @@
       "max_detour_distance": "13",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "4e8a6bf8-5167-4a02-96ba-c0b714a4919c",
@@ -10216,7 +10216,7 @@
       "max_detour_distance": "13",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "18378edf-2372-4e04-9e5e-01ba154a922a",
@@ -10229,7 +10229,7 @@
       "max_detour_distance": "19",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "bb14d02c-c879-4b81-b23d-b876d0228043",
@@ -10242,7 +10242,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "6277a6e5-62bd-4a60-b226-092d8ef8d2fc",
@@ -10255,7 +10255,7 @@
       "max_detour_distance": "20",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "8dc7c482-acf2-41c2-8831-e37d90d85bf5",
@@ -10268,7 +10268,7 @@
       "max_detour_distance": "20",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "f29fb4ca-5c30-4930-ae5e-06765c7eaf53",
@@ -10281,7 +10281,7 @@
       "max_detour_distance": "22",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "cae2ae51-c050-4f72-8546-a86496ebe839",
@@ -10294,7 +10294,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "f5932581-ecf8-473c-a0f9-f78b1d6f9db3",
@@ -10307,7 +10307,7 @@
       "max_detour_distance": "10",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "1fca9873-a0d7-4283-9732-bf0866e02f30",
@@ -10346,7 +10346,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "c66694a5-53a9-448c-806e-46cb778c7cf8",
@@ -10359,7 +10359,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "36921f3e-0350-4428-a5c9-745b3f131a57",
@@ -10372,7 +10372,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "532a4de7-7b55-42e4-8571-f7f8a2825f00",
@@ -10385,7 +10385,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "4cdc3edc-7b41-4335-9c11-b29baeafbf5f",
@@ -10437,7 +10437,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "dacf7075-bfc0-428e-9d3b-76819fc17472",
@@ -10450,7 +10450,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "39051360-00d6-455e-976e-e670515caa8c",
@@ -10476,7 +10476,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "32df8fdc-2dcf-4c83-8ae5-f657e49cbd35",
@@ -10515,7 +10515,7 @@
       "max_detour_distance": "25",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "d34f34e7-b337-43fb-b43e-53adb571995f",
@@ -10541,7 +10541,7 @@
       "max_detour_distance": "19",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "387e4314-381e-49be-9a32-43117d6df3eb",
@@ -10554,7 +10554,7 @@
       "max_detour_distance": "15",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "fda6a532-e935-4ebd-abeb-76bfb4054211",
@@ -10593,7 +10593,7 @@
       "max_detour_distance": "13",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "0d7994cf-398a-4e89-ab30-7786998976fe",
@@ -10619,7 +10619,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "cd8af34d-d604-4f53-b705-1fe778dfbe68",
@@ -10632,7 +10632,7 @@
       "max_detour_distance": "18",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "5409e510-7e4a-40e4-82a0-dc5ab15a9541",
@@ -10684,7 +10684,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "f00cb300-492a-4850-a006-95838efc13f6",
@@ -10723,7 +10723,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "c1ff8b01-0b4e-4e1e-8dbd-12a604a420ea",
@@ -10749,7 +10749,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "b03b57ab-e6a5-4c55-ade7-baed3f7aede4",
@@ -10775,7 +10775,7 @@
       "max_detour_distance": "19",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "66d02c53-8cf9-4f9f-ad34-9b3fe52853f0",
@@ -10788,7 +10788,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "8684e0df-0c9d-4f62-9b2b-a289f8879c4d",
@@ -10814,7 +10814,7 @@
       "max_detour_distance": "21",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "767b3047-14d1-49eb-89cc-6e6936348a6b",
@@ -10827,7 +10827,7 @@
       "max_detour_distance": "15",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "7e2c6d65-83e7-4c9c-b59d-c3529198018a",
@@ -10840,7 +10840,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "e1c76b78-176e-4e72-86d4-ff68c4d5ecf8",
@@ -10866,7 +10866,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "a3ff6941-7d78-4443-b858-e9873e407bc3",
@@ -10905,7 +10905,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "4d3cec20-e109-4292-a7ff-f9839d02f6e4",
@@ -10931,7 +10931,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "2dc89dde-70be-46ae-b4b4-7e4f9d3da3eb",
@@ -10944,7 +10944,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "3186986c-6a8a-4073-a0b2-472a20f15f7a",
@@ -10970,7 +10970,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "37313c14-8c8a-4669-8c81-ee3f3b9420de",
@@ -11022,7 +11022,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "7e9355c1-2ddb-494b-b123-b26fe07e9453",
@@ -11035,7 +11035,7 @@
       "max_detour_distance": "25",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "5169aaa8-d426-4515-b55a-1d12b15c37c3",
@@ -11061,7 +11061,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "77460706-778b-428e-b78e-06b21a8c93ad",
@@ -11074,7 +11074,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "cb5c9855-172e-4ca9-8ced-258ecf850b93",
@@ -11152,7 +11152,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "31e93b14-7e74-47f6-b7d2-b68289ebba28",
@@ -11178,7 +11178,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "c4104410-cc4e-4795-96ea-1e36b22a4a47",
@@ -11191,7 +11191,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "38c6923b-b7b1-43be-ba54-0c2a8c27e0d7",
@@ -11269,7 +11269,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "f0d22c7a-c4f1-45a0-9375-9b547cbd2255",
@@ -11282,7 +11282,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "ad32c0ba-dec0-4aff-a795-7203795d434c",
@@ -11334,7 +11334,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "96f2bedf-ac37-46dc-95d5-0a43bded6dfb",
@@ -11438,7 +11438,7 @@
       "max_detour_distance": "19",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "244aaa71-071f-4caf-85f7-892d8c09c360",
@@ -11464,7 +11464,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "f13f3b47-3bcb-4eff-a823-87f29ec496af",
@@ -11516,7 +11516,7 @@
       "max_detour_distance": "17",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "731f2d71-ebbd-49b9-bdcd-dafe720aee4c",
@@ -11529,7 +11529,7 @@
       "max_detour_distance": "28",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "6444739d-2d97-422b-9368-caaeb89325b9",
@@ -11594,7 +11594,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "98272ab6-0609-49c7-b2d1-7c4e9f98665e",
@@ -11633,7 +11633,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "ac27a658-5b55-42c8-a886-928e8b7cf5cd",
@@ -11659,7 +11659,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "e171ffa3-5508-4684-aaa0-95326843f0b3",
@@ -11672,7 +11672,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "90095730-288b-4bc9-9e85-c8048093eaa7",
@@ -11685,7 +11685,7 @@
       "max_detour_distance": "29",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "9cdf3a8c-84a8-4e2e-a0c0-e39b4e8909e0",
@@ -11724,7 +11724,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "999426cd-dbde-42c1-a148-168e2be1a754",
@@ -11763,7 +11763,7 @@
       "max_detour_distance": "10",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "01f7aaa3-9ca5-4d91-86fe-07d6e4955a41",
@@ -11776,7 +11776,7 @@
       "max_detour_distance": "17",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "9648fa91-7a8f-49a9-8a45-0ab574d98738",
@@ -11815,7 +11815,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "50e83dad-f950-4b86-a0ed-a1f154398a5d",
@@ -11854,7 +11854,7 @@
       "max_detour_distance": "21",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "83469b72-bd97-4856-803b-fcd8a2f873f2",
@@ -11867,7 +11867,7 @@
       "max_detour_distance": "10",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "3540b05c-8a6c-4159-9e43-9677cdc6e464",
@@ -11880,7 +11880,7 @@
       "max_detour_distance": "27",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "1e4acc53-c646-42e6-86db-f1670b6f60cd",
@@ -11893,7 +11893,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "7d65d54b-97b7-4ef4-a9e4-0c8ea815162a",
@@ -11919,7 +11919,7 @@
       "max_detour_distance": "25",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "4b5053e1-205a-437a-88b2-b8c850e7cdd2",
@@ -11945,7 +11945,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "2f26cd12-ee1a-4e59-b51a-1b74c16960e9",
@@ -11997,7 +11997,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "91e86819-510d-4f66-8725-a7ef95d736b1",
@@ -12010,7 +12010,7 @@
       "max_detour_distance": "6",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "0a3ad84f-f3a2-4a15-bdee-e7b0c49cc19f",
@@ -12023,7 +12023,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "b05bcd08-3fec-4ead-8411-e096d0147fa6",
@@ -12036,7 +12036,7 @@
       "max_detour_distance": "28",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "5b2246e3-2e1d-4618-85d6-8ea81b45d5d0",
@@ -12049,7 +12049,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "9797b9e0-b112-4c19-b4e1-ec9533f22409",
@@ -12062,7 +12062,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "5b0096be-89c2-4b1b-83c4-e5cd85431f90",
@@ -12088,7 +12088,7 @@
       "max_detour_distance": "23",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "22c2b3a7-4afd-4f0c-90e2-bbac51382267",
@@ -12101,7 +12101,7 @@
       "max_detour_distance": "19",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "4c7b56d1-ec9e-4037-bd84-b13e4c052566",
@@ -12127,7 +12127,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "d6c00141-70b8-47ac-a33b-5f197e7032ee",
@@ -12153,7 +12153,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "af007f0a-f778-4816-81c4-72fd198c6ee7",
@@ -12166,7 +12166,7 @@
       "max_detour_distance": "8",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "8607a742-6947-458d-a4a1-820fe26f0ff7",
@@ -12205,7 +12205,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "8a5d7d86-50a4-44f4-9c13-a7a265e7e78c",
@@ -12244,7 +12244,7 @@
       "max_detour_distance": "22",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "c226fdfa-4832-480e-933d-b507c2ce3b0d",
@@ -12322,7 +12322,7 @@
       "max_detour_distance": "7",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "c23092a1-4a08-4360-a75e-988c9ffa245c",
@@ -12335,7 +12335,7 @@
       "max_detour_distance": "26",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "9afbc696-3b9a-41f3-8597-91811638c27a",
@@ -12348,7 +12348,7 @@
       "max_detour_distance": "18",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "bfd633b6-8974-494e-b97f-201872bf9747",
@@ -12400,7 +12400,7 @@
       "max_detour_distance": "29",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "0a21822f-ab16-4000-8a28-697b635e9b06",
@@ -12439,7 +12439,7 @@
       "max_detour_distance": "10",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "960b7133-13b3-4091-9388-5161176d5f81",
@@ -12465,7 +12465,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "cafde88a-de79-4216-8668-8397757df0ea",
@@ -12478,7 +12478,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "1e517653-c2b3-4665-af30-7b8b9d160fc5",
@@ -12491,7 +12491,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "e4f6d661-ec8f-454c-a605-e75a7449a4de",
@@ -12517,7 +12517,7 @@
       "max_detour_distance": "7",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "83b5bc15-4b8f-4f7f-bb24-a4ae8d6506ee",
@@ -12530,7 +12530,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "b23e1d73-b81d-44c2-8c30-83f00580481a",
@@ -12543,7 +12543,7 @@
       "max_detour_distance": "12",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "f0266f1e-f843-4d64-b1d4-14f9964ff41e",
@@ -12569,7 +12569,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "a04cd00e-37a6-495a-94bb-cbf36dcda328",
@@ -12634,7 +12634,7 @@
       "max_detour_distance": "30",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "50e1752c-9463-4a40-9d0b-16314d5f1bf8",
@@ -12673,7 +12673,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "57e405d9-0ca2-41e9-9237-50edf467d244",
@@ -12686,7 +12686,7 @@
       "max_detour_distance": "20",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "485f9f1a-8736-49bc-9344-2b579176dd07",
@@ -12699,7 +12699,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "9cbc1ecd-2cfe-4960-84b2-a08642cf7da3",
@@ -12725,7 +12725,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "3f3e0089-d681-438a-9a6d-83e0e780ca14",
@@ -12738,7 +12738,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "67a17f02-0f6d-45ca-9b99-a68476fe6ba2",
@@ -12764,7 +12764,7 @@
       "max_detour_distance": "9",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "e22d9f65-b1c7-491b-a3a2-573478658950",
@@ -12777,7 +12777,7 @@
       "max_detour_distance": "9",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "ab3fda4c-442a-4491-8c2b-800b4a56cded",
@@ -12803,7 +12803,7 @@
       "max_detour_distance": "6",
       "non_smoking": "TRUE",
       "same_gender": "TRUE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "38f8275a-02ff-4aee-aa40-72ccf2e4473c",
@@ -12816,7 +12816,7 @@
       "max_detour_distance": "19",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "ea0f792a-c67a-4928-90b9-7291c0c95abd",
@@ -12829,7 +12829,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "9a2d9883-341b-43f8-83fb-7705e6672e64",
@@ -12842,7 +12842,7 @@
       "max_detour_distance": "11",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "9a408ebb-672c-4c49-98b3-b6b7f93034fb",
@@ -12868,7 +12868,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "1"
+      "no_free_seats": "1"
     },
     {
       "user_id": "c5f8748a-605c-445e-b536-3ebb9ad18b9a",
@@ -12907,7 +12907,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "TRUE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     },
     {
       "user_id": "38a3729e-0d2d-416f-8f53-75ab871ccc71",
@@ -12920,7 +12920,7 @@
       "max_detour_distance": "5",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "4"
+      "no_free_seats": "4"
     },
     {
       "user_id": "909bc9e3-dc76-4162-bb2d-43be45a6f240",
@@ -12985,7 +12985,7 @@
       "max_detour_distance": "5",
       "non_smoking": "FALSE",
       "same_gender": "FALSE",
-      "Number of free seats": "3"
+      "no_free_seats": "3"
     },
     {
       "user_id": "5dbc310d-b17a-4bc0-a256-5b430cf936cf",
@@ -12998,7 +12998,7 @@
       "max_detour_distance": "8",
       "non_smoking": "TRUE",
       "same_gender": "FALSE",
-      "Number of free seats": "2"
+      "no_free_seats": "2"
     }
   ]
 }
