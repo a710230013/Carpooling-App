@@ -12,13 +12,12 @@ def get_user(id):
         'email': 'john.doe@example.com'
     }
     return jsonify(user)
-def get():
-    response = {
-        'message': 'post test',
-        'data': 'hello',
-    }
-    return jsonify(response)
+
+@app.route('/generate', methods=['GET'])
+def generate():
+    # call some function to generate the data
+    return jsonify({'message': 'success'})
 
 
 if __name__ == '__main__':
-    app.run(host='10.17.32.71', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
