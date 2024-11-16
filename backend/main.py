@@ -151,14 +151,14 @@ def get_time(u):
     return time
 
 # gets list of drivers ordered by start time
-with open('backend/driver_data.json') as f:
+with open('./driver_data.json') as f:
     # ld = json.load(f)["Data"]
     drivers = sorted(json.load(f)["Data"], key=get_time)[:400]
     # rng = [g for g in range(len(drivers))]
     # driver_dict = dict(zip(ld[rng]["user_id"], ld[rng]))
 
 # gets list of riders ordered by start time
-with open('backend/rider_data.json') as f:
+with open('./rider_data.json') as f:
     riders = [r for r in (sorted(json.load(f)["Data"], key=get_time)[:400]) if r["start_location"] != r["destination_location"]]
 
 
@@ -172,9 +172,17 @@ layers = create_layers(drivers, riders)
 driver_ids = []
 rider_ids = []
 
-# rider dict (rider_id: [[driver ids, detour, ]])
+# rider dict (rider_id: [[driver ids, detour, max_detour, seats, urgency, carbon]])
 # driver dict (driver_id: [[available seats, time of update, rid], []])
 # start with [[avail, layer count], [0, layer count + est_dist]]
+def score(d):
+    s = 1/d[1] * 20
+    s += 1/d[2] * 5
+    s += d[3] * 0.5
+
+
+
+
 def calc():
     layer_count = 0
     for driver_ids_new, rider_ids_new in layers:
@@ -255,7 +263,10 @@ def calc():
                         continue
 
                 if (detour <= max_detour):
-                    rider_dict[rid].append(did)
+                    rdic = rider_dict[rid]
+                    rdic.append(did, int(d["max_detour_distance"]), int(d["no_free_seats"]))
+                    rdic.sort(key=score)
+                    rider_dict[rid]
                     # if d["name"] == "Barbara Gross":
                     # print("GOOD: ", d["name"], start_d_loc, end_d_loc, num_riders, rider_dict[rid], driver_dict[did])
                     # print("GOOD: ", d["name"], start_d_loc, end_d_loc, dist_driver, detour, max_detour, avail_seats, (avail_seats - num_riders))
