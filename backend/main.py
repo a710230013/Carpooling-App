@@ -137,7 +137,7 @@ def add_ride(r, d, cur_layer):
     # print("DIC: ", insert)
     if d["user_id"] not in ret_drivers:
         ret_drivers[d["user_id"]] = [d, []]
-    ret_drivers[d["user_id"]][1].append(r["user_id"])
+    ret_drivers[d["user_id"]][1].append(r)
     return 0
 
 
@@ -319,5 +319,5 @@ def calc():
             
     return ret_drivers
 
-print(calc())
+# print(calc())
 
