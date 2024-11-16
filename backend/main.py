@@ -60,29 +60,36 @@ def add_ride(r, d, cur_layer):
     
     pos.append([dict_entry[-1][0], dict_entry[-1][1], d["user_id"], d_e])
     print(pos)
-    ind = []
+    ind = [0, len(pos) + 1]
     for i in range(len(pos)):
         if pos[i][1] > cur_layer:
             pos.insert(i, [pos[i-1][0] - int(r["no_of_persons"]), cur_layer, r["user_id"], r_s])
-            ind.append(i)
+            ind[0] = i
             break
     
     
-
-    for i in range(ind[0], len(pos)):
+    set = 0
+    for i in range(ind[0] + 1, len(pos)):
         if pos[i][1] >= cur_layer + r_lay:
-            pos.insert(i, [pos[i-1][0], (cur_layer + r_lay), r["user_id"], r_e])
-            ind.append(i)
+            pos.insert(i, [pos[i-1][0] + int(r["no_of_persons"]), (cur_layer + r_lay), r["user_id"], r_e])
+            ind[1] = i
+            set = 1
             break
+    
+    if not set:
+        pos.insert(len(pos) - 1, [pos[i-1][0] + int(r["no_of_persons"]), (cur_layer + r_lay), r["user_id"], r_e])
     
     for i in range(ind[0], ind[1]):
         pos[i][0] -= int(r["no_of_persons"])
 
 
 
-    new_detour = get_distance(d_s, r_s) + get_distance(r_s, r_e) + get_distance(r_e, d_e) - get_distance(d_s, d_e)
-    if (new_detour > int(d["max_detour_distance"])):
-        return 1
+    new_detour = -get_distance(d_s, d_e)
+    for i in range(1, len(pos)):
+        new_detour  += (get_distance(pos[i][3], pos[i-1][3]))
+        # print(new_detour)
+        if new_detour > int(d["max_detour_distance"]):
+            return 1
     
     total_layers = dict_entry[0][1]
     insert = []
@@ -93,6 +100,10 @@ def add_ride(r, d, cur_layer):
     
     insert[0].pop()
     insert[-1].pop()
+
+    for i in insert:
+        if i[0] < 0:
+            return 1
 
 
     # for i in range(len(pos - 1)):
@@ -109,7 +120,7 @@ def add_ride(r, d, cur_layer):
     # dict_entry[-1][1] = leg1 + leg2 + leg3
     # i = 0
     # insert = [[leg1, people, r["user_id"]], [leg1 + leg2, -people, r["user_id"]]]
-    print(insert)
+    print("RIDER ADDED\n", d["name"], dict_entry, "\n", insert)
     # new_dict_entry = []
 
     # while i < len(dict_entry) and len(insert) > 0:
@@ -142,13 +153,13 @@ def get_time(u):
 # gets list of drivers ordered by start time
 with open('backend/driver_data.json') as f:
     # ld = json.load(f)["Data"]
-    drivers = sorted(json.load(f)["Data"], key=get_time)[:200]
+    drivers = sorted(json.load(f)["Data"], key=get_time)[:400]
     # rng = [g for g in range(len(drivers))]
     # driver_dict = dict(zip(ld[rng]["user_id"], ld[rng]))
 
 # gets list of riders ordered by start time
 with open('backend/rider_data.json') as f:
-    riders = [r for r in (sorted(json.load(f)["Data"], key=get_time)[:200]) if r["start_location"] != r["destination_location"]]
+    riders = [r for r in (sorted(json.load(f)["Data"], key=get_time)[:400]) if r["start_location"] != r["destination_location"]]
 
 
 # i = 0
@@ -258,20 +269,22 @@ def calc():
                 
                 rider_ids.remove(rid)
                 print("Adding Rider")
-                add_ride(get_rider(rid), get_driver(drid), layer_count)
-                # driver_ids.remove(did)
-                # if drid == "470d083d-8185-4222-bf1d-3f33af261385":
-                #     print("BARBARA")
-                # driver_dict[drid].append([num_riders, layer_count + ride_est, ])
-                # driver_dict[drid][0][0] -= num_riders
-                print(r["name"], "with", drid, driver_dict[drid])
-                # dict.update(driver_dict)
-                del rider_dict[rid]
+                if (add_ride(get_rider(rid), get_driver(drid), layer_count) == 0):
+                    # driver_ids.remove(did)
+                    # if drid == "470d083d-8185-4222-bf1d-3f33af261385":
+                    #     print("BARBARA")
+                    # driver_dict[drid].append([num_riders, layer_count + ride_est, ])
+                    # driver_dict[drid][0][0] -= num_riders
+                    print(r["name"], "with", drid, driver_dict[drid])
+                    # dict.update(driver_dict)
+                    del rider_dict[rid]
+                else:
+                    print("ERROR: rider could not be added")
         
         
         print("leftover:", len(rider_ids))
             
     return ret_drivers
 
-calc()
+print(calc())
 
