@@ -1,4 +1,4 @@
-apiKey = "rNABltQ9BhEQlHEL4si3TgBX4J7WRZ8I";
+apiKey = "rNABltQ9BhEQlHEL4si3TgBX4J7WRZ8I+";
 
 function initMap(waypoints, mapId) {
   // Initialize the map
@@ -84,9 +84,9 @@ function initMap(waypoints, mapId) {
 }
 
 async function getData(userId, testing) {
-  let data;
   if (!testing) {
-    data = await fetch(`http://localhost:3000/api/users/${userId}`).then((response) => response.json());
+    data = await fetch(`http://10.17.32.71:5000/getUser/${userId}`).then((response) => response.json());
+    console.log(data);
   } else {
     data = {
       id: 1,
@@ -145,5 +145,6 @@ async function getData(userId, testing) {
 }
 
 function search() {
-  getData(123, true);
+  let userId = document.getElementById("search").value;
+  getData(userId, false);
 }
