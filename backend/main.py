@@ -132,11 +132,11 @@ def add_ride(r, d, cur_layer):
     # if (len(insert) == 1):
     #     dict_entry.insert(-1, [dict_entry[-2][0] - insert[0][1], insert[0][0], insert[0][2]])
     
-    driver_dict[d["user_id"]] = [d, insert]
+    driver_dict[d["user_id"]] = insert
     print("DIC: ", insert)
     if d["user_id"] not in ret_drivers:
-        ret_drivers[d["user_id"]] = []
-    ret_drivers[d["user_id"]].append(r["user_id"])
+        ret_drivers[d["user_id"]] = [d, []]
+    ret_drivers[d["user_id"]][1].append(r["user_id"])
     return 0
 
 
@@ -239,7 +239,7 @@ def calc():
                     driver_dict[did].append([0, layer_count + driv_est])
                     # print(d["name"])
                 else:
-                    # print(driver_dict[did])
+                    print("DDDDD", did, driver_dict[did])
                     avail_seats = driver_dict[did][0][0]
 
                 # check if seats available
@@ -277,7 +277,7 @@ def calc():
                     # driver_dict[did].append(rid)
             
             if len(rider_dict[rid]) == 1:
-                drid = rider_dict[rid][0]
+                drid = rider_dict[rid][0][0]
                 
                 print("Adding Rider")
                 if (add_ride(get_rider(rid), get_driver(drid), layer_count) == 0):
@@ -297,7 +297,7 @@ def calc():
                     print("ERROR: rider could not be added")
             elif len(rider_dict) > 1:
                 for i in range(len(rider_dict[rid])):
-                    drid = rider_dict[rid][i]
+                    drid = rider_dict[rid][i][0]
                     if (add_ride(get_rider(rid), get_driver(drid), layer_count) == 0):
                         rider_ids.remove(rid)
                     # driver_ids.remove(did)
