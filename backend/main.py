@@ -299,19 +299,19 @@ def calc():
                     del rider_dict[rid]
                 # else:
                     # print("ERROR: rider could not be added")
-            elif len(rider_dict) > 1:
-                for i in range(len(rider_dict[rid])):
-                    drid = rider_dict[rid][i][0]
-                    if (add_ride(get_rider(rid), get_driver(drid), layer_count) == 0):
-                        rider_ids.remove(rid)
-                    # driver_ids.remove(did)
-                    for rd in rider_dict:
-                        if drid in rider_dict[rd]:
-                            rider_dict[rd].remove(drid)
-                    # print(r["name"], "with", drid, driver_dict[drid])
-                    # dict.update(driver_dict)
-                    del rider_dict[rid]
-                    break
+        if len(rider_dict) > 1:
+            for i in range(len(rider_dict[rid])):
+                drid = rider_dict[rid][i][0]
+                if (add_ride(get_rider(rid), get_driver(drid), layer_count) == 0):
+                    rider_ids.remove(rid)
+                # driver_ids.remove(did)
+                for rd in rider_dict:
+                    if drid in rider_dict[rd]:
+                        rider_dict[rd].remove(drid)
+                # print(r["name"], "with", drid, driver_dict[drid])
+                # dict.update(driver_dict)
+                del rider_dict[rid]
+                break
                     
         
         

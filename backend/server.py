@@ -18,7 +18,7 @@ def get_user(id):
 @app.route('/generate', methods=['GET'])
 def generate():
     global data 
-    data = main.generate()
+    data = main.calc()
     print(data)
     return jsonify({'message': 'success'})
 
