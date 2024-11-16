@@ -8,20 +8,43 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="icon" type="image/x-icon" href="../car.png">
     <link rel="stylesheet" href="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.14.0/maps/maps.css" />
   </head>
 
   <body style="background-color: black">
+    <br>
+    <div class="text-center">
+      <h1 style="font-size: 3rem; font-weight: bold; color: #ffcc00;">
+          CAR BUDDY 
+          <img src="../car.png" alt="Car" style="width: 60px; height: auto; vertical-align: middle;">
+      </h1>
+      <br>
+      <p style="color: beige;">Car Buddy is a carpooling app that connects drivers and passengers. Reduce your carbon emissions by ride-sharing.</p>
+  </div>
+  <br>
+  <div class="text-center mb-4">
+      <form action="./search/index.html" method="get" style="width: 50%; margin: 0 auto;">
+        <div class="input-group">
+        <input type="text" id="search" name="search" class="form-control" required placeholder="Enter User ID">
+        <button type="submit" class="btn btn-secondary">Search User Map</button>
+        </div>
+      </form>
+  </div>
     <div class="container">
       <div class="card mt-4 bg-dark text-white">
-        <div class="card-header bg-secondary">Driver</div>
+        <div class="card-header bg-secondary">Driver Map/User Map</div>
         <div class="card-body">
           <div class="row">
             <div class="col-md-8">
-              <h5 class="card-title">heheheha</h5>
-              <p class="card-text">aaaaaaaaaaaaaaa</p>
-              <p class="card-text">aaaaaaaaaaaaaaa</p>
-              <p class="card-text">aaaaaaaaaaaaaaa</p>
+                <h4 class="card-title" style="font-family: 'Arial', sans-serif;">Thank you for helping us cut down carbon emissions!<br>Here is your carbon-friendly commute map.</h4><br>
+              <h5 class="card-title" style="color: #ffcc00;">Estimated Time: 45 minutes</h5><br>
+              <p id="startTime" class="card-text">Start the Journey at ??</p>
+              <!--Dynamic Loop to be added by leo-->
+              <p id="stop1" class="card-text">First Stop:</p>
+              <p id="stop2" class="card-text">Second Stop:</p>
+              <p id="stop3" class="card-text">Third Stop:</p>
+              <p id="final" class="card-text">Final Destination:</p>
             </div>
             <div class="col-md-4">
               <h6>Old Directions</h6>
