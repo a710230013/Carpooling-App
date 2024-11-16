@@ -22,13 +22,13 @@ def get_time(u):
 # disect the dataset into layers, create layers based on start times, current layer time = 10mins
 def create_layers(drivers, riders):
     layer_stack =[] #only stores ids of drivers and riders in the given layer
-    for i in range(0, 2400, 15): 
+    for i in range(0, 2400, 20): 
         layer = [[],[]]
         for d in drivers:
-            if i <= get_time(d) < i + 15:
+            if i <= get_time(d) < i + 20:
                 layer[0].append(d["user_id"])
         for r in riders:
-            if i <= get_time(r) < i + 15:
+            if i <= get_time(r) < i + 20:
                 layer[1].append(r["user_id"])
         if layer[0] or layer[1]:
             layer_stack.append(layer)

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <title>Ride Map</title>
+    <link rel="icon" type="image/x-icon" href="../car.png" />
+    <link rel="stylesheet" href="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.14.0/maps/maps.css" />
+  </head>
+
+  <body style="background-color: black">
+    <br />
+    <div class="text-center">
+      <h1 style="font-size: 3rem; font-weight: bold; color: #ffcc00">
+        CAR BUDDY
+        <img src="../car.png" alt="Car" style="width: 60px; height: auto; vertical-align: middle" />
+      </h1>
+      <br />
+      <p style="color: beige">
+        Car Buddy is a carpooling app that connects drivers and passengers. Reduce your carbon emissions by
+        ride-sharing.
+      </p>
+    </div>
+    <br />
+    <div class="text-center mb-4">
+      <div action="./search/index.html" method="get" style="width: 50%; margin: 0 auto">
+        <div class="input-group">
+          <input type="text" id="search" name="search" class="form-control" required placeholder="Enter User ID" />
+          <button class="btn btn-secondary" onclick="search()">Search User Map</button>
+        </div>
+      </div>
+    </div>
+    <div id="card" class="container"></div>
+
+    <script src="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.14.0/maps/maps-web.min.js"></script>
+    <script src="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.14.0/services/services-web.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
