@@ -9,65 +9,33 @@
       crossorigin="anonymous"
     />
     <title>Ride Map</title>
-    <link rel="icon" type="image/x-icon" href="../car.png">
+    <link rel="icon" type="image/x-icon" href="../car.png" />
     <link rel="stylesheet" href="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.14.0/maps/maps.css" />
   </head>
 
   <body style="background-color: black">
-    <br>
+    <br />
     <div class="text-center">
-      <h1 style="font-size: 3rem; font-weight: bold; color: #ffcc00;">
-          CAR BUDDY 
-          <img src="../car.png" alt="Car" style="width: 60px; height: auto; vertical-align: middle;">
+      <h1 style="font-size: 3rem; font-weight: bold; color: #ffcc00">
+        CAR BUDDY
+        <img src="../car.png" alt="Car" style="width: 60px; height: auto; vertical-align: middle" />
       </h1>
-      <br>
-      <p style="color: beige;">Car Buddy is a carpooling app that connects drivers and passengers. Reduce your carbon emissions by ride-sharing.</p>
-  </div>
-  <br>
-  <div class="text-center mb-4">
-      <form action="./search/index.html" method="get" style="width: 50%; margin: 0 auto;">
+      <br />
+      <p style="color: beige">
+        Car Buddy is a carpooling app that connects drivers and passengers. Reduce your carbon emissions by
+        ride-sharing.
+      </p>
+    </div>
+    <br />
+    <div class="text-center mb-4">
+      <div action="./search/index.html" method="get" style="width: 50%; margin: 0 auto">
         <div class="input-group">
-        <input type="text" id="search" name="search" class="form-control" required placeholder="Enter User ID">
-        <button type="submit" class="btn btn-secondary">Search User Map</button>
-        </div>
-      </form>
-  </div>
-    <div class="container">
-      <div class="card mt-4 bg-dark text-white">
-        <div class="card-header bg-secondary">Driver Map/User Map</div>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-md-8">
-                <h4 class="card-title" style="font-family: 'Arial', sans-serif;">Thank you for helping us cut down carbon emissions! 🍃<br>Here is your carbon-friendly commute map.</h4><br>
-              <h5 class="card-title" style="color: #ffcc00;">Estimated Time: 45 minutes</h5><br>
-              <p id="startTime" class="card-text">Start the Journey at ??</p>
-              <!--Dynamic Loop to be added by leo-->
-              <p id="stop1" class="card-text">First Stop:</p>
-              <p id="stop2" class="card-text">Second Stop:</p>
-              <p id="stop3" class="card-text">Third Stop:</p>
-              <p id="final" class="card-text">Final Destination:</p>
-            </div>
-            <div class="col-md-4">
-              <h6>Old Directions</h6>
-              <!-- <iframe
-                id="old"
-                src="https://maps.google.com/maps?q=Kerr%20Hall&z=16&output=embed"
-                width="100%"
-                height="150"
-                ></iframe> -->
-              <div style="width: 100%; height: 150px" id="map"></div>
-              <h6 class="mt-4">New Directions</h6>
-              <iframe
-                id="new"
-                src="https://maps.google.com/maps?q=Kerr%20Hall&z=16&output=embed"
-                width="100%"
-                height="150"
-              ></iframe>
-            </div>
-          </div>
+          <input type="text" id="search" name="search" class="form-control" required placeholder="Enter User ID" />
+          <button class="btn btn-secondary" onclick="search()">Search User Map</button>
         </div>
       </div>
     </div>
+    <div id="card" class="container"></div>
 
     <script src="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.14.0/maps/maps-web.min.js"></script>
     <script src="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.14.0/services/services-web.min.js"></script>
