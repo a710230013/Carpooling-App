@@ -43,12 +43,15 @@ def get_locations(r):
 def add_ride(r, d, cur_layer):
     r_s, r_e = get_locations(r)
     d_s, d_e = get_locations(d)
+
+    r_lay = get_layer_est(get_distance(r_s, r_e))
     
     dict_entry = driver_dict[d["user_id"]]
     pos = [[dict_entry[0][0], dict_entry[0][1], d["user_id"], d_s]]
     for i in range(len(dict_entry)):
         e = dict_entry[i]
         if len(e) == 3:
+            print(dict_entry, i)
             a, b = get_locations(get_rider(e[2]))
             if dict_entry[i][0] < dict_entry[i-1][0]:
                 pos.append([e[0], e[1], e[2], a])
@@ -57,16 +60,41 @@ def add_ride(r, d, cur_layer):
     
     pos.append([dict_entry[-1][0], dict_entry[-1][1], d["user_id"], d_e])
     print(pos)
+    ind = []
     for i in range(len(pos)):
         if pos[i][1] > cur_layer:
-            pos.insert(i, [])
+            pos.insert(i, [pos[i-1][0] - int(r["no_of_persons"]), cur_layer, r["user_id"], r_s])
+            ind.append(i)
+            break
+    
+    
+
+    for i in range(ind[0], len(pos)):
+        if pos[i][1] >= cur_layer + r_lay:
+            pos.insert(i, [pos[i-1][0], (cur_layer + r_lay), r["user_id"], r_e])
+            ind.append(i)
+            break
+    
+    for i in range(ind[0], ind[1]):
+        pos[i][0] -= int(r["no_of_persons"])
 
 
 
     new_detour = get_distance(d_s, r_s) + get_distance(r_s, r_e) + get_distance(r_e, d_e) - get_distance(d_s, d_e)
     if (new_detour > int(d["max_detour_distance"])):
         return 1
+    
+    total_layers = dict_entry[0][1]
     insert = []
+    for i in range(len(pos)):
+        if i > 0:
+            total_layers += get_layer_est(get_distance(pos[i][3], pos[i-1][3]))
+        insert.append([pos[i][0], total_layers, pos[i][2]])
+    
+    insert[0].pop()
+    insert[-1].pop()
+
+
     # for i in range(len(pos - 1)):
         # insert.append([get_layer_est(get_distance(3, r_s)])
     # leg1 = get_layer_est(get_distance(d_s, r_s))
@@ -76,23 +104,25 @@ def add_ride(r, d, cur_layer):
 
 
     people = int(r["no_of_persons"])
-    leg1 += dict_entry[0][1]
-    print(dict_entry, leg1, leg2, leg3, people)
-    dict_entry[-1][1] = leg1 + leg2 + leg3
-    i = 0
-    insert = [[leg1, people, r["user_id"]], [leg1 + leg2, -people, r["user_id"]]]
+    # leg1 += dict_entry[0][1]
+    # print(dict_entry, leg1, leg2, leg3, people)
+    # dict_entry[-1][1] = leg1 + leg2 + leg3
+    # i = 0
+    # insert = [[leg1, people, r["user_id"]], [leg1 + leg2, -people, r["user_id"]]]
     print(insert)
-    while i < len(dict_entry) and len(insert) > 0:
-        if insert[0][0] < dict_entry[i][1] and dict_entry[i-1][0] >= insert[0][1]:
-            print(i)
-            dict_entry.insert(i, [dict_entry[i-1][0] - insert[0][1], insert[0][0], insert[0][2]])
-            insert.pop(0)
-        i += 1
-    if (len(insert) == 1):
-        dict_entry.insert(-1, [dict_entry[-2][0] - insert[0][1], insert[0][0], insert[0][2]])
+    # new_dict_entry = []
+
+    # while i < len(dict_entry) and len(insert) > 0:
+    #     if insert[0][0] < dict_entry[i][1] and dict_entry[i-1][0] >= insert[0][1]:
+    #         print(i)
+    #         dict_entry.insert(i, [dict_entry[i-1][0] - insert[0][1], insert[0][0], insert[0][2]])
+    #         insert.pop(0)
+    #     i += 1
+    # if (len(insert) == 1):
+    #     dict_entry.insert(-1, [dict_entry[-2][0] - insert[0][1], insert[0][0], insert[0][2]])
     
-    driver_dict[d["user_id"]] = dict_entry
-    print("DIC: ", dict_entry)
+    driver_dict[d["user_id"]] = insert
+    print("DIC: ", insert)
     if d["user_id"] not in ret_drivers:
         ret_drivers[d["user_id"]] = []
     ret_drivers[d["user_id"]].append(r["user_id"])
@@ -130,12 +160,12 @@ with open('backend/rider_data.json') as f:
 layers = create_layers(drivers, riders)
 driver_ids = []
 rider_ids = []
-layer_count = 0
 
 # rider dict (rider_id: [[driver ids, detour, ]])
 # driver dict (driver_id: [[available seats, time of update, rid], []])
 # start with [[avail, layer count], [0, layer count + est_dist]]
 def calc():
+    layer_count = 0
     for driver_ids_new, rider_ids_new in layers:
         print("adding:", len(rider_ids_new))
         if layer_count == 2:
