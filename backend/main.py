@@ -35,8 +35,8 @@ for d in drivers:
         end_r_loc = r["destination_location"].split(",")
         end_r_x = float(end_r_loc[0])
         end_r_y = float(end_r_loc[1])
-        dist_rider = ((end_r_x - start_r_x) ** 2 + (end_r_y - start_r_y) ** 2)
-        print(start_r_loc, start_r_x, start_r_y)
+        dist_rider = math.sqrt((end_r_x - start_r_x) ** 2 + (end_r_y - start_r_y) ** 2)
+        print(r["name"], start_r_loc, end_r_loc, dist_rider)
         # du_s = r[]
     print(d["name"], d["time_of_travel"])
     
