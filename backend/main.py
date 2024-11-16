@@ -132,7 +132,7 @@ def add_ride(r, d, cur_layer):
     # if (len(insert) == 1):
     #     dict_entry.insert(-1, [dict_entry[-2][0] - insert[0][1], insert[0][0], insert[0][2]])
     
-    driver_dict[d["user_id"]] = insert
+    driver_dict[d["user_id"]] = [d, insert]
     print("DIC: ", insert)
     if d["user_id"] not in ret_drivers:
         ret_drivers[d["user_id"]] = []
