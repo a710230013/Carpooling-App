@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Buddy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.14.0/maps/maps.css" />
+</head>
+<body style="background-color: black; color: white;">
+    <div class="container mt-5">
+        <div class="text-center">
+            <h1 style="font-size: 3rem; font-weight: bold; color: #ffcc00;">
+                CAR BUDDY 
+                <img src="car.png" alt="Car" style="width: 60px; height: auto; vertical-align: middle;">
+            </h1>
+            <br>
+            <p>Car Buddy is a carpooling app that connects drivers and passengers. Reduce your carbon emissions by ride-sharing.</p>
+        </div>
+        <div class="text-center mb-4">
+            <form action="/search/index.html" method="get">
+                <button type="submit" class="btn btn-primary">Generate Carpooling Map</button>
+            </form>
+        </div>
+        <div class="card bg-dark text-white">
+            <div class="card-body">
+                <h2 class="card-title">Edit Your Preferences</h2>
+                <form action="/editPreferences" method="post">
+                    <div class="mb-3">
+                        <label for="smoking" class="form-label">Smoking Preference</label>
+                        <select id="smoking" name="smoking" class="form-select" required>
+                            <option value="true">Non-Smoking</option>
+                            <option value="false">Smoking</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="gender" class="form-label">Gender Preferences</label>
+                        <select id="gender" name="gender" class="form-select" required>
+                            <option value="allFemale">All Female</option>
+                            <option value="allMale">All Male</option>
+                            <option value="mixed">Mixed</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="max_detour_distance" class="form-label">Max Detour Distance</label>
+                        <input type="number" id="max_detour_distance" name="max_detour_distance" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="start" class="form-label">Starting Location</label>
+                        <select id="start" name="start" class="form-select" required>
+                            <option value="location1">Location 1</option>
+                            <option value="location2">Location 2</option>
+                            <option value="location3">Location 3</option>
+                            <option value="location4">Location 4</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="end" class="form-label">Ending Location</label>
+                        <select id="end" name="end" class="form-select" required>
+                            <option value="location1">Location 1</option>
+                            <option value="location2">Location 2</option>
+                            <option value="location3">Location 3</option>
+                            <option value="location4">Location 4</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-success">Save Preferences</button>
+                </form>
+            </div>
+        </div>
+    </div>
