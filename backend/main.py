@@ -189,16 +189,19 @@ def calc():
     layer_count = 0
     for driver_ids_new, rider_ids_new in layers:
         print("adding:", len(rider_ids_new))
-        if layer_count == 2:
+        if layer_count == 5:
             break
         layer_count += 1
         get_time = 1
         driver_ids.extend(driver_ids_new)
         rider_ids.extend(rider_ids_new)
+        drivers_to_delete = []
         for dv in driver_dict:
             if driver_dict[dv][-1][1] == layer_count:
-                del (driver_dict[dv])
+                drivers_to_delete.append(dv)
                 print("driver arrived")
+        for dvs in drivers_to_delete:
+            del driver_dict[dvs]
             # if len(driver_dict[dv]) > 1:
             #     for c in range(1, len(driver_dict[dv])):
             #         if c >= len(driver_dict[dv]):
@@ -239,7 +242,7 @@ def calc():
                     driver_dict[did].append([0, layer_count + driv_est])
                     # print(d["name"])
                 else:
-                    print("DDDDD", did, driver_dict[did])
+                    # print("DDDDD", did, driver_dict[did])
                     avail_seats = driver_dict[did][0][0]
 
                 # check if seats available
