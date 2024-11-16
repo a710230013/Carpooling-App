@@ -1,4 +1,4 @@
-apiKey = "rNABltQ9BhEQlHEL4si3TgBX4J7WRZ8I+";
+apiKey = "rNABltQ9BhEQlHEL4si3TgBX4J7WRZ8I";
 
 function initMap(waypoints, mapId) {
   // Initialize the map
@@ -85,19 +85,7 @@ async function getData(userId, testing) {
   if (!testing) {
     data = await fetch(`http://localhost:5000/getUser/${userId}`).then((response) => response.json());
     console.log(data);
-    return;
   } else {
-    data = {
-      id: 1,
-      name: "John Doe",
-      waypoints: [
-        [42.9849, -81.2453],
-        [43.9849, -81.3453],
-        [43.4643, -81.3204],
-        [43.4643, -81.5304],
-      ],
-    };
-
     data = {
       driver: {
         user_id: "24e5b87f-2809-45eb-98d6-a6312b549527",
@@ -127,28 +115,15 @@ async function getData(userId, testing) {
           no_of_persons: "1",
         },
         {
-          user_id: "281bd0c7-a92a-448a-a923-d3f6f5234b31",
-          name: "Christopher Petersen",
+          user_id: "50e1752c-9463-4a40-9d0b-16314d5f1bf8",
+          name: "Robert Boyd",
           gender: "Male",
           driver_rider: "Rider",
-          start_location: "42.9849,-81.2453",
-          destination_location: "43.7001,-79.4163",
-          time_of_travel: "7:04",
-          max_detour_distance: "8",
+          start_location: "42.7976,-82.3078",
+          destination_location: "42.7976,-82.7078",
+          time_of_travel: "7:21",
+          max_detour_distance: "18",
           non_smoking: "FALSE",
-          same_gender: "TRUE",
-          no_of_persons: "2",
-        },
-        {
-          user_id: "521a5d60-45e1-417a-9558-b273562ee201",
-          name: "Teresa Barnes",
-          gender: "Female",
-          driver_rider: "Rider",
-          start_location: "43.7001,-79.4163",
-          destination_location: "42.9976,-82.3078",
-          time_of_travel: "7:55",
-          max_detour_distance: "15",
-          non_smoking: "TRUE",
           same_gender: "FALSE",
           no_of_persons: "2",
         },
@@ -161,12 +136,18 @@ async function getData(userId, testing) {
     return;
   }
 
-  data.waypoints = data.waypoints.map((point) => [point[1], point[0]]);
+  let wp = [];
+  data.riders.forEach((rider) => {
+    wp.push(rider.destination_location.split(",").map(Number));
+    wp.push(rider.start_location.split(",").map(Number));
+  });
+
+  wp = wp.map((point) => [point[1], point[0]]);
 
   const card = document.getElementById("card");
   card.innerHTML = `
     <div class="card mt-4 bg-dark text-white">
-      <div class="card-header bg-secondary">Driver Map/User Map</div>
+      <div class="card-header bg-secondary">Driver: ${data.driver.name}</div>
       <div class="card-body">
         <div class="row">
           <div class="col-md-7">
@@ -174,14 +155,10 @@ async function getData(userId, testing) {
               Thank you for helping us cut down carbon emissions! 🍃<br />Here is your carbon-friendly commute map.
             </h5>
             <br />
-            
-            
+            <p class="card-text">Time of Travel: ${data.driver.time_of_travel}</p>
+            <p class="card-text">Non-Smoking: ${data.driver.non_smoking}</p>
+            <p class="card-text">Same Gender: ${data.driver.same_gender}</p>
             <br />
-            <p id="startTime" class="card-text">Start the Journey at ??</p>
-            <p id="stop1" class="card-text">First Stop:</p>
-            <p id="stop2" class="card-text">Second Stop:</p>
-            <p id="stop3" class="card-text">Third Stop:</p>
-            <p id="final" class="card-text">Final Destination:</p>
           </div>
           <div class="col-md-5">
             <h5>Old Directions</h5>
@@ -196,10 +173,10 @@ async function getData(userId, testing) {
     </div>
   `;
 
-  await initMap(data.waypoints, "map2");
+  await initMap(wp, "map2");
   document.getElementsByClassName("mapboxgl-ctrl-bottom-right")[0].remove();
 
-  await initMap([data.waypoints[0], data.waypoints[data.waypoints.length - 1]], "map");
+  await initMap([wp[0], wp[wp.length - 1]], "map");
   document.getElementsByClassName("mapboxgl-ctrl-bottom-right")[0].remove();
 }
 

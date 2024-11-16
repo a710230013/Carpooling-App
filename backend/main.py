@@ -152,14 +152,14 @@ def get_time(u):
     return time
 
 # gets list of drivers ordered by start time
-with open('backend/driver_data.json') as f:
+with open('./driver_data.json') as f:
     # ld = json.load(f)["Data"]
     drivers = sorted(json.load(f)["Data"], key=get_time)
     # rng = [g for g in range(len(drivers))]
     # driver_dict = dict(zip(ld[rng]["user_id"], ld[rng]))
 
 # gets list of riders ordered by start time
-with open('backend/rider_data.json') as f:
+with open('./rider_data.json') as f:
     riders = [r for r in (sorted(json.load(f)["Data"], key=get_time)) if r["start_location"] != r["destination_location"]]
 
 
