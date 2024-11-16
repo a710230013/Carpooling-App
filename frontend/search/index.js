@@ -1,4 +1,4 @@
-apiKey = "rNABltQ9BhEQlHEL4si3TgBX4J7WRZ8I";
+apiKey = "rNABltQ9BhEQlHEL4si3TgBX4J7WRZ8I+";
 
 function initMap(waypoints, mapId) {
   // Initialize the map
@@ -53,9 +53,7 @@ function initMap(waypoints, mapId) {
 
       // Get estimated time
       const estimatedTime = routeData.routes[0].summary.travelTimeInSeconds / 60; // Convert seconds to minutes
-      document.querySelector(".card-title[style='color: #ffcc00']").innerText = `Estimated Time: ${Math.round(
-        estimatedTime
-      )} minutes`;
+      document.getElementById(mapId + "min").innerText = `Estimated Time: ${Math.round(estimatedTime)} minutes`;
     });
 
   // Draw the path from origin to destination
@@ -84,16 +82,16 @@ function initMap(waypoints, mapId) {
 }
 
 async function getData(userId, testing) {
-  let data;
   if (!testing) {
-    data = await fetch(`http://localhost:3000/api/users/${userId}`).then((response) => response.json());
+    data = await fetch(`http://10.17.32.71:5000/getUser/${userId}`).then((response) => response.json());
+    console.log(data);
   } else {
     data = {
       id: 1,
       name: "John Doe",
       waypoints: [
         [42.9849, -81.2453],
-        [42.9849, -81.3453],
+        [43.9849, -81.3453],
         [43.4643, -81.3204],
         [43.4643, -81.5304],
       ],
@@ -118,7 +116,8 @@ async function getData(userId, testing) {
               Thank you for helping us cut down carbon emissions! 🍃<br />Here is your carbon-friendly commute map.
             </h5>
             <br />
-            <h5 class="card-title" style="color: #ffcc00">Estimated Time: 45 minutes</h5>
+            
+            
             <br />
             <p id="startTime" class="card-text">Start the Journey at ??</p>
             <p id="stop1" class="card-text">First Stop:</p>
@@ -127,9 +126,11 @@ async function getData(userId, testing) {
             <p id="final" class="card-text">Final Destination:</p>
           </div>
           <div class="col-md-5">
-            <h6>Old Directions</h6>
+            <h5>Old Directions</h5>
+            <h6 id="mapmin" class="card-title" style="color: #ffcc00">Estimated Time: ?? minutes</h6>
             <div style="width: 100%; height: 200px" id="map"></div>
-            <h6 class="mt-4">New Directions</h6>
+            <h5 class="mt-4">New Directions</h5>
+            <h6 id="map2min" class="card-title" style="color: #ffcc00">Estimated Time: ?? minutes</h6>
             <div style="width: 100%; height: 200px" id="map2"></div>
           </div>
         </div>
@@ -145,5 +146,6 @@ async function getData(userId, testing) {
 }
 
 function search() {
-  getData(123, true);
+  let userId = document.getElementById("search").value;
+  getData(userId, true);
 }
