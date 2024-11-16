@@ -151,14 +151,14 @@ def get_time(u):
     return time
 
 # gets list of drivers ordered by start time
-with open('./driver_data.json') as f:
+with open('backend/driver_data.json') as f:
     # ld = json.load(f)["Data"]
     drivers = sorted(json.load(f)["Data"], key=get_time)[:400]
     # rng = [g for g in range(len(drivers))]
     # driver_dict = dict(zip(ld[rng]["user_id"], ld[rng]))
 
 # gets list of riders ordered by start time
-with open('./rider_data.json') as f:
+with open('backend/rider_data.json') as f:
     riders = [r for r in (sorted(json.load(f)["Data"], key=get_time)[:400]) if r["start_location"] != r["destination_location"]]
 
 
@@ -179,6 +179,8 @@ def score(d):
     s = 1/d[1] * 20
     s += 1/d[2] * 5
     s += d[3] * 0.5
+    s += d[4] // 200
+    return 1 - s
 
 
 
@@ -264,9 +266,11 @@ def calc():
 
                 if (detour <= max_detour):
                     rdic = rider_dict[rid]
-                    rdic.append(did, int(d["max_detour_distance"]), int(d["no_free_seats"]))
+                    #d.consumption
+                    cons = 250 #c/km
+                    rdic.append([did, int(d["max_detour_distance"]), int(d["no_free_seats"]), 1, cons])
                     rdic.sort(key=score)
-                    rider_dict[rid]
+                    rider_dict[rid] = rdic
                     # if d["name"] == "Barbara Gross":
                     # print("GOOD: ", d["name"], start_d_loc, end_d_loc, num_riders, rider_dict[rid], driver_dict[did])
                     # print("GOOD: ", d["name"], start_d_loc, end_d_loc, dist_driver, detour, max_detour, avail_seats, (avail_seats - num_riders))
@@ -274,14 +278,14 @@ def calc():
             
             if len(rider_dict[rid]) == 1:
                 drid = rider_dict[rid][0]
-                for rd in rider_dict:
-                    if drid in rider_dict[rd]:
-                        rider_dict[rd].remove(drid)
                 
-                rider_ids.remove(rid)
                 print("Adding Rider")
                 if (add_ride(get_rider(rid), get_driver(drid), layer_count) == 0):
+                    rider_ids.remove(rid)
                     # driver_ids.remove(did)
+                    for rd in rider_dict:
+                        if drid in rider_dict[rd]:
+                            rider_dict[rd].remove(drid)
                     # if drid == "470d083d-8185-4222-bf1d-3f33af261385":
                     #     print("BARBARA")
                     # driver_dict[drid].append([num_riders, layer_count + ride_est, ])
@@ -291,6 +295,20 @@ def calc():
                     del rider_dict[rid]
                 else:
                     print("ERROR: rider could not be added")
+            elif len(rider_dict) > 1:
+                for i in range(len(rider_dict[rid])):
+                    drid = rider_dict[rid][i]
+                    if (add_ride(get_rider(rid), get_driver(drid), layer_count) == 0):
+                        rider_ids.remove(rid)
+                    # driver_ids.remove(did)
+                    for rd in rider_dict:
+                        if drid in rider_dict[rd]:
+                            rider_dict[rd].remove(drid)
+                    print(r["name"], "with", drid, driver_dict[drid])
+                    # dict.update(driver_dict)
+                    del rider_dict[rid]
+                    break
+                    
         
         
         print("leftover:", len(rider_ids))
